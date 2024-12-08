@@ -21,13 +21,33 @@
       <img src="./Nintendo_content/switch.jpg" alt="Nintendo Switch">
     </div>
     <div class="button-container">
-      <button>Установка прошивки</button>
-      <button>Установка игр</button>
-      <button>Переключаться между прошивками</button>
-      <button>Эмунанд</button>
-      <button>Бэкап</button>
-      <button>Retroarch</button>
+      <button data-info="info1">Установка прошивки</button>
+      <button data-info="info2">Установка игр</button>
+      <button data-info="info3">Переключаться между прошивками</button>
+      <button data-info="info4">Эмунанд</button>
+      <button data-info="info5">Бэкап</button>
+      <button data-info="info6">Retroarch</button>
     </div>
+
+    <div id="info1" class="info-box">
+      <p>Информация о процессе установки прошивки.</p>
+    </div>
+    <div id="info2" class="info-box">
+      <p>Информация о процессе установки игр.</p>
+    </div>
+    <div id="info3" class="info-box">
+      <p>Инструкция по переключению между прошивками.</p>
+    </div>
+    <div id="info4" class="info-box">
+      <p>Описание работы с Эмунандом.</p>
+    </div>
+    <div id="info5" class="info-box">
+      <p>Как сделать бэкап данных.</p>
+    </div>
+    <div id="info6" class="info-box">
+      <p>Информация о Retroarch.</p>
+    </div>
+
   </main>
 
   <footer>
@@ -35,5 +55,27 @@
     <a href="#">Avito</a>
     <a href="#">Youtube</a>
   </footer>
+
+  <script>
+    // Находим все кнопки
+    const buttons = document.querySelectorAll('.button-container button');
+    const infoBoxes = document.querySelectorAll('.info-box');
+  
+    // Добавляем обработчик событий на каждую кнопку
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        // Скрыть все информационные блоки
+        infoBoxes.forEach(box => box.style.display = 'none');
+  
+        // Показать соответствующий информационный блок
+        const infoId = button.getAttribute('data-info');
+        const infoBox = document.getElementById(infoId);
+        if (infoBox) {
+          infoBox.style.display = 'block';
+        }
+      });
+    });
+  </script>
+
 </body>
 </html>
