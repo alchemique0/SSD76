@@ -14,7 +14,8 @@
 
     }
     header {
-      background: rgba(29, 53, 87, 0.9);
+      background: rgba(129, 128, 128, 0.3);
+      margin-top: 40px ;
       color: white;
       padding: 15px;
       display: flex;
@@ -29,20 +30,21 @@
 
     header a {
       font-size: 20px;
+      font-family: inter;
     margin: 0 10px;
     text-decoration: none;
-    color: white;
+    color: rgb(231, 211, 211);
     font-weight: bold;
   }
 
     .main-banner {
       position: relative;
-      text-align: center;
-      padding: 50px;
-      background: rgba(69, 123, 157, 0.8);
+      text-align: left;
+      padding: 20px;
+      background: rgba(203, 203, 203, 0.3);
       color: white;
       margin: 20px;
-      border-radius: 10px;
+      border-radius: 0px;
       height: 200px;
       overflow: hidden;
     }
@@ -119,7 +121,7 @@
       font-weight: bold;
     }
     footer {
-      background: rgba(42, 157, 143, 0.9);
+      background: rgba(42, 157, 143, 0.3);
       padding: 10px;
       color: white;
       text-align: center;
@@ -127,11 +129,20 @@
     footer a {
     margin: 0 15px;
     text-decoration: none;
-    color: white;
+    color: rgb(175, 232, 225);
   }
   
   footer a:hover {
     text-decoration: underline;
+  }
+
+  #carousel-title {
+    font-size: 30px;
+    color: rgb(231, 211, 211);
+  }
+
+  #carousel-text {
+    color: rgb(231, 211, 211);
   }
 
   </style>
@@ -149,12 +160,12 @@
   <section class="main-banner">
 
     <div class="carousel">
-        <h2 id="carousel-title">Nintendo Switch Oled</h2>
+        <h1 id="carousel-title">Nintendo Switch Oled</h1>
         <p id="carousel-text">Первое направление моей деятельности это прошивка приставок Nintendo Wsitch Oled</p>
         <div class="carousel-buttons">
-          <button onclick="setSlide(0)" class="active">Кнопка 1</button>
-          <button onclick="setSlide(1)">Кнопка 2</button>
-          <button onclick="setSlide(2)">Кнопка 3</button>
+          <button onclick="setSlide(0)" class="active"></button>
+          <button onclick="setSlide(1)"></button>
+          <button onclick="setSlide(2)"></button>
         </div>
       </div>
 
