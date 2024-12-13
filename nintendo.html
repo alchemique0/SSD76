@@ -15,21 +15,28 @@ body {
     background: url('./Nintendo_content/background.jpg') no-repeat center center fixed;
     background-size: cover;
 }
-  header {
-    background: rgba(0, 0, 0, 0.7);
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  header {
-    background: rgba(29, 53, 87, 0.9);
-    color: white;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+      background: rgba(129, 128, 128, 0.3);
+      margin-top: 40px ;
+      color: white;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+    }
+
+    header a {
+      font-size: 20px;
+      font-family: inter;
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(231, 211, 211);
+    font-weight: bold;
   }
 
   .main-banner {
@@ -58,10 +65,16 @@ body {
     color: white;
     font-weight: bold;
   }
-  
-  nav a:hover {
-    text-decoration: underline;
+
+  header a:hover {
+      font-size: 20px;
+      font-family: inter;
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(241, 205, 60);
+    font-weight: bold;
   }
+  
   
   main {
     text-align: center;
@@ -81,7 +94,7 @@ body {
   
   .button-container button {
     display: block;
-    width: 160%; /* Увеличено в 2 раза */
+    width: 90%; /* Увеличено в 2 раза */
     max-width: 600px;
     margin: 10px auto;
     padding: 15px 20px; /* Увеличен padding для более крупных кнопок */
@@ -91,7 +104,7 @@ body {
     background: white;
     color: black;
     cursor: pointer;
-    transition: background 0.3s ease;
+    /* transition: background 0.3s ease; */
   }
   
   .button-container button:hover {
@@ -167,22 +180,22 @@ body {
     }
 
     footer {
-    background: rgba(42, 157, 143, 0.9);
-    padding: 10px;
-    color: white;
-    text-align: center;
-  }
-  
-  footer a {
+      background: rgba(42, 157, 143, 0.3);
+      padding: 10px;
+      color: white;
+      text-align: center;
+    }
+    footer a {
     margin: 0 15px;
     text-decoration: none;
-    color: white;
-  }
-  
-  footer a:hover {
-    text-decoration: underline;
+    color: rgb(175, 232, 225);
   }
 
+  footer a:hover {
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(241, 205, 60);
+  }
 </style>
 
 
