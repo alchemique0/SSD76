@@ -8,9 +8,10 @@
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: MyCustomFont, sans-serif;
       background: url('./Main_Content/background.jpg') no-repeat center center fixed;
       background-size: cover;
+      font-family: 'MyCustomFont', sans-serif; /* Укажите имя шрифта, заданное в font-family */
 
     }
     header {
@@ -29,8 +30,8 @@
     }
 
     header a {
-      font-size: 20px;
-      font-family: inter;
+      font-size: 30px;
+      font-family: MyCustomFont;
     margin: 0 10px;
     text-decoration: none;
     color: rgb(231, 211, 211);
@@ -38,8 +39,8 @@
   }
 
   header a:hover {
-      font-size: 20px;
-      font-family: inter;
+      font-size: 30px;
+      font-family: MyCustomFont;
     margin: 0 10px;
     text-decoration: none;
     color: rgb(241, 205, 60);
@@ -48,6 +49,7 @@
 
     .main-banner {
       position: relative;
+      
       text-align: left;
       padding: 20px;
       background: rgba(203, 203, 203, 0.3);
@@ -147,16 +149,34 @@
     color: rgb(241, 205, 60);
   }
 
-  color: rgb(241, 205, 60);
+
 
   #carousel-title {
-    font-size: 30px;
+    font-family: MyCustomFont;
+    font-size: 40px;
     color: rgb(231, 211, 211);
   }
 
   #carousel-text {
+    font-family: MyCustomFont1;
+    font-size: 20px;
     color: rgb(231, 211, 211);
   }
+
+  @font-face {
+    font-family: 'MyCustomFont'; /* Имя шрифта, которое вы будете использовать */
+    src: url('./Fonts/Inter-Thin.otf') format('opentype'); /* Путь к файлу шрифта */
+    font-weight: normal; /* Опционально: можно указать вес */
+    font-style: normal; /* Опционально: можно указать стиль (например, italic) */
+}
+
+@font-face {
+    font-family: 'MyCustomFont1'; /* Имя шрифта, которое вы будете использовать */
+    src: url('./Fonts/Montserrat-Regular.ttf') format('opentype'); /* Путь к файлу шрифта */
+    font-weight: normal; /* Опционально: можно указать вес */
+    font-style: normal; /* Опционально: можно указать стиль (например, italic) */
+}
+
 
   </style>
 </head>
@@ -173,7 +193,7 @@
   <section class="main-banner">
 
     <div class="carousel">
-        <h1 id="carousel-title">Nintendo Switch Oled</h1>
+        <p id="carousel-title">Nintendo Switch Oled </p>
         <p id="carousel-text">Первое направление моей деятельности это прошивка приставок Nintendo Wsitch Oled</p>
         <div class="carousel-buttons">
           <button onclick="setSlide(0)" class="active"></button>
