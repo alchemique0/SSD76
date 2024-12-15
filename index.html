@@ -14,11 +14,12 @@
       font-family: 'MyCustomFont', sans-serif; /* Укажите имя шрифта, заданное в font-family */
 
     }
+
     header {
       background: rgba(129, 128, 128, 0.3);
       margin-top: 40px ;
       color: white;
-      padding: 15px;
+      padding: 7px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -30,7 +31,7 @@
     }
 
     header a {
-      font-size: 30px;
+      font-size: 12px;
       font-family: MyCustomFont;
     margin: 0 10px;
     text-decoration: none;
@@ -38,8 +39,26 @@
     font-weight: bold;
   }
 
+  header a.sssd {
+      font-size: 25px;
+      font-family: MyCustomFont;
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(231, 211, 211);
+    font-weight: bold;
+  }
+
+  header a.sssd:hover {
+      font-size: 25px;
+      font-family: MyCustomFont;
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(241, 205, 60);
+    font-weight: bold;
+  }
+
   header a:hover {
-      font-size: 30px;
+      font-size: 12px;
       font-family: MyCustomFont;
     margin: 0 10px;
     text-decoration: none;
@@ -77,18 +96,20 @@
     }
     .carousel-buttons {
       position: absolute;
+      width:10px; 
+      height: 10px; /* Размеры кнопки */
       bottom: 10px;
       left: 50%;
       transform: translateX(-50%);
       display: flex;
-      gap: 20px; /* Увеличен промежуток между кнопками */
+      gap: 7px; /* Увеличен промежуток между кнопками */
     }
     .carousel-buttons button {
-      background: white;
+      background: rgb(41, 192, 195);
       border: none;
-      border-radius: 20px;
-      padding: 5px 15px;
-      font-size: 14px;
+      border-radius: 50%;
+      padding: 5px 5px;
+      /* font-size: 14px; */
       cursor: pointer;
       opacity: 0.7;
       transition: opacity 0.3s ease;
@@ -100,6 +121,7 @@
     .carousel-buttons button:hover {
       opacity: 1;
     }
+
     .products {
       display: flex;
       justify-content: center;
@@ -112,7 +134,8 @@
       border-radius: 8px;
       overflow: hidden;
       width: 200px;
-      text-align: center;
+      text-align: left;
+      padding-left: 5px;
       background: white;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
@@ -131,20 +154,35 @@
       padding: 10px 0;
       font-weight: bold;
     }
+
+    .simple-buttons {
+      position: absolute;
+      width:10px; 
+      height: 10px; /* Размеры кнопки */
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 7px; /* Увеличен промежуток между кнопками */
+    }
+
     footer {
       background: rgba(42, 157, 143, 0.3);
+      
       padding: 10px;
       color: white;
       text-align: center;
+      margin-bottom: 90px;
     }
     footer a {
     margin: 0 15px;
+    margin-bottom: 90px;
     text-decoration: none;
     color: rgb(175, 232, 225);
   }
   
   footer a:hover {
-    margin: 0 15px;
+    margin: 0 25px;
     text-decoration: none;
     color: rgb(241, 205, 60);
   }
@@ -164,12 +202,18 @@
   }
 
   .orange_line {
-    width: 300px;
+    width: 15%;
     height: 20px;
-    background: rgba(248, 173, 54, 0.776);
-    margin-left: 10px;
+    background: rgb(243, 169, 30);
+    margin-left: 5%;
     margin-bottom: 30px;
     
+  }
+
+  .partners {
+    margin-top: 5%;
+    margin-left: 5%;
+    color: white;
   }
 
   .prefooter {
@@ -191,12 +235,26 @@
     font-style: normal; /* Опционально: можно указать стиль (например, italic) */
 }
 
+.simple-button {
+  
+  width:100px; 
+  height: 30px; /* Размеры кнопки */
+  bottom: 10px;
+  left: 50%;
+  
+  transform: translateX(-50%);
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  /* display: flex; */
+  /* gap: 7px; Увеличен промежуток между кнопками */
 
+}
   </style>
 </head>
 <body>
   <header>
-    <a href="index.html">SSD76</a>
+    <a href="index.html" class="sssd">SSD76</a>
     <nav>
       <a href="About.html">О НАС</a>
       <a href="News.html">НОВОСТИ</a>
@@ -211,7 +269,7 @@
         <p id="carousel-text">Первое направление моей деятельности это прошивка приставок Nintendo Wsitch Oled</p>
         <div class="carousel-buttons">
           <button onclick="setSlide(0)" class="active"></button>
-          <button onclick="setSlide(1)"></button>
+          <button onclick="setSlide(1)" ></button>
           <button onclick="setSlide(2)"></button>
         </div>
       </div>
@@ -223,13 +281,13 @@
     <div class="product-card">
       <a href="nintendo.html">
         <img src="./Main_Content/switch.jpg" alt="Switch">
-        <p>Инструкции Retroarch</p>
+        <p>Инструкции <br> Retroarch</p>
       </a>
     </div>
     <div class="product-card">
       <a href="SSD76.html">
         <img src="./Main_Content/ssd.jpg" alt="SSD">
-        <p>SSD128Gb SSD256Gb</p>
+        <p>SSD128Gb <br> SSD256Gb</p>
       </a>
     </div>
     <div class="product-card">
@@ -237,6 +295,15 @@
         <img src="./Main_Content/lorem.jpg" alt="Lorem">
         <p>Lorem Ipsum</p>
       </a>
+    </div>
+
+    <div class="partners">
+      <h1>Lorem</h1>
+      Lorem ipsum, dolor sit amet <br>
+      consectetur adipisicing elit.<br> 
+      Excepturi, perferendis!<br>
+      <button class="simple-button" >ONE</button>
+      <button  class="simple-button">TWOO</button>
     </div>
   </section>
 
