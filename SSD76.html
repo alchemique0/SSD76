@@ -3,126 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+    <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            color: white;
-            background: url('./SSD76_content/background.jpg') no-repeat center center fixed;
-            background-size: cover;
-        }
-        header {
-      background: rgba(129, 128, 128, 0.3);
-      margin-top: 40px ;
-      color: white;
-      padding: 15px;
+
+    .main   {
+        width: 100vh;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
     }
-    nav a {
-      margin: 0 10px;
-      text-decoration: none;
-      color: white;
+
+    .container {
+        /* display: flex;
+      justify-content: raw;
+        align-items: raw; */
+      width: calc(100%-20px);
+      max-width: 420px; /*Максимальная ширина контейнера  */
+      margin: 10px ;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      /* margin-left: auto;
+    margin-right: auto; */
+    padding: 1px;
+    aspect-ratio: 3/4.5;
+
     }
 
-    header a {
-      font-size: 20px;
-      font-family: MyCustomFont;
-    margin: 0 10px;
-    text-decoration: none;
-    color: rgb(231, 211, 211);
-    font-weight: bold;
-  }
+    .cont_text {
+        color: azure;
+        padding: 10%;
+        width: 40%;
+        height: 40%;
+        font-size: 30px;
+    }
 
-  header a:hover {
-      font-size: 20px;
-      font-family: MyCustomFont;
-    margin: 0 10px;
-    text-decoration: none;
-    color: rgb(241, 205, 60);
-    font-weight: bold;
-  }
+    .info  {
+        font-size: 30px;
+    }
+
+    #white  {
+        color: beige;
+    }
+
+    /* @media (max-width: 472px) {
         .container {
-            text-align: center;
-            padding: 50px;
+            width: 100px;
+            height: auto;
         }
-        h1 {
-            font-size: 3em;
-            margin-bottom: 20px;
-        }
-        p {
-            font-size: 1.2em;
-            line-height: 1.6;
-            max-width: 600px;
-            margin: 0 auto 40px auto;
-        }
-        .card {
-           
-            padding: 20px;
-            border-radius: 10px;
-            max-width: 400px;
-            margin: 0 auto;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-            text-align: center;
-            position: relative;
-        }
-        .card h2 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        .card p {
-            font-size: 1em;
-            margin: 10px 0;
-        }
-
-        .card:hover {
-      transform: scale(1.1);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-    }
-
-
-        footer {
-      background: rgba(42, 157, 143, 0.3);
-      padding: 10px;
-      color: white;
-      text-align: center;
-    }
-    footer a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: rgb(175, 232, 225);
-  }
-  
-  footer a:hover {
-    margin: 0 15px;
-    text-decoration: none;
-    color: rgb(241, 205, 60);
-  }
+    } */
+     
       
     </style>
 </head>
 <body>
     <header>
         
-        <a href="index.html">SSD76</a>
+      <a href="index.html" class="sssd">SSD76</a>
         <nav>
           <a href="About.html">О НАС</a>
           <a href="News.html">НОВОСТИ</a>
           <a href="contacts.html">КОНТАКТЫ</a>
         </nav>
     </header>
-    <div class="container">
-        <h1>SSD76 Solid State Drive</h1>
-        <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и веб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латыни с начала XVI века.</p>
-        <div class="card">
-           
-            <div class="lines">
-                <img src="./SSD76_content/nintendo.jpg" alt="">
-            </div>
+    <main>
+        <div class="info" id="white">SSD76 быстрые надежные с SM59XT на борту</div>
+        <div class="container">
+            
+          <img src="./SSD76_content/nintendo.jpg" alt="Example Image">
+         
         </div>
-    </div>
+        <div class="cont_text">Это диски SSD128Gb</div>
+      </main>
+               
+        
+
     <footer>
         <a href="https://vk.com/vanoo2005">Vk</a>
         <a href="https://www.avito.ru/user/6f8e50f318dacf6495154f26e18b1b7c/profile?src=sharing">Avito</a>
