@@ -4,82 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'> -->
+  <link rel="stylesheet" href="styles.css">
   <title>SSD76</title>
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: url('./Main_Content/background.jpg') no-repeat center center fixed;
-      background-size: cover;
-
-    }
-    header {
-      background: rgba(129, 128, 128, 0.3);
-      margin-top: 40px ;
-      color: white;
-      padding: 15px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    nav a {
-      margin: 0 10px;
-      text-decoration: none;
-      color: white;
-    }
-
-    header a {
-      font-size: 20px;
-      font-family: inter;
-    margin: 0 10px;
-    text-decoration: none;
-    color: rgb(231, 211, 211);
-    font-weight: bold;
-  }
-
-  header a:hover {
-      font-size: 20px;
-      font-family: inter;
-    margin: 0 10px;
-    text-decoration: none;
-    color: rgb(241, 205, 60);
-    font-weight: bold;
-  }
-  
-    .highlighted-text {
-  background-color: yellow;
-  font-size: 58px;
-}
-
-
-
-footer {
-      background: rgba(42, 157, 143, 0.3);
-      padding: 10px;
-      color: white;
-      text-align: center;
-    }
-    footer a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: rgb(175, 232, 225);
-  }
-  footer a:hover {
-    margin: 0 15px;
-    text-decoration: none;
-    color: rgb(241, 205, 60);
-  }
+   
 
   .container {
     width: 300px;
     height: 100px;
   }
 
+
   </style>
 </head>
 <body>
   <header>
-    <a href="index.html">SSD76</a>
+    <a href="index.html" class="sssd">SSD76</a>
     <nav>
       <a href="About.html">О НАС</a>
       <a href="News.html">НОВОСТИ</a>
@@ -91,8 +33,10 @@ footer {
   <div class="container">
   <span class="highlighted-text">Белобородов Иван Сергеевич
   Номер телефона 89159957586
-  СМС, ТГ, Watsup, Viber</span>
+  СМС, <a href="@SSD76_bot">ТГ</a>, <a href="https://t.me/vanoo2005">ТГ</a> Watsup, Viber</span>
   </Div>
+
+  
 
   <footer>
     <a href="https://vk.com/vanoo2005">Vk</a>
@@ -101,45 +45,7 @@ footer {
   </footer>
 
   <script>
-   const slides = [
-  {
-    title: "Текст 1",
-    text: "Это первый текст карусели.",
-  },
-  {
-    title: "Текст 2",
-    text: "Это второй текст карусели.",
-  },
-  {
-    title: "Текст 3",
-    text: "Это третий текст карусели.",
-  },
-];
 
-let currentIndex = 0;
-
-function setSlide(index) {
-  const titleElement = document.getElementById("carousel-title");
-  const textElement = document.getElementById("carousel-text");
-  const buttons = document.querySelectorAll(".carousel-buttons button");
-
-  // Меняем текст
-  titleElement.textContent = slides[index].title;
-  textElement.textContent = slides[index].text;
-
-  // Обновляем активную кнопку
-  buttons.forEach((button, i) => {
-    button.classList.toggle("active", i === index);
-  });
-
-  currentIndex = index;
-}
-
-// Автоматическая прокрутка (по желанию)
-setInterval(() => {
-  currentIndex = (currentIndex + 1) % slides.length;
-  setSlide(currentIndex);
-}, 5000);
   </script>
 </body>
 </html>
