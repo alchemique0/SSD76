@@ -5,66 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SSD76</title>
+  <link rel="stylesheet" href="styles.css">
   <style>
-    body {
-      margin: 0;
-      font-family: MyCustomFont, sans-serif;
-      background: url('./Main_Content/background.jpg') no-repeat center center fixed;
-      background-size: cover;
-      font-family: 'MyCustomFont', sans-serif; /* Укажите имя шрифта, заданное в font-family */
-
-    }
-
-    header {
-      background: rgba(129, 128, 128, 0.3);
-      margin-top: 40px ;
-      color: white;
-      padding: 7px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    nav a {
-      margin: 0 10px;
-      text-decoration: none;
-      color: white;
-    }
-
-    header a {
-      font-size: 12px;
-      font-family: MyCustomFont;
-    margin: 0 10px;
-    text-decoration: none;
-    color: rgb(231, 211, 211);
-    font-weight: bold;
-  }
-
-  header a.sssd {
-      font-size: 25px;
-      font-family: MyCustomFont;
-    margin: 0 10px;
-    text-decoration: none;
-    color: rgb(231, 211, 211);
-    font-weight: bold;
-  }
-
-  header a.sssd:hover {
-      font-size: 25px;
-      font-family: MyCustomFont;
-    margin: 0 10px;
-    text-decoration: none;
-    color: rgb(241, 205, 60);
-    font-weight: bold;
-  }
-
-  header a:hover {
-      font-size: 12px;
-      font-family: MyCustomFont;
-    margin: 0 10px;
-    text-decoration: none;
-    color: rgb(241, 205, 60);
-    font-weight: bold;
-  }
+   
 
     .main-banner {
       position: relative;
@@ -155,50 +98,20 @@
       font-weight: bold;
     }
 
-    .simple-buttons {
-      position: absolute;
-      width:10px; 
-      height: 10px; /* Размеры кнопки */
-      bottom: 10px;
-      left: 50%;
-      transform: translateX(-50%);
-      display: flex;
-      gap: 7px; /* Увеличен промежуток между кнопками */
-    }
-
-    footer {
-      background: rgba(42, 157, 143, 0.3);
-      
-      padding: 10px;
-      color: white;
-      text-align: center;
-      margin-bottom: 90px;
-    }
-    footer a {
-    margin: 0 15px;
-    margin-bottom: 90px;
-    text-decoration: none;
-    color: rgb(175, 232, 225);
-  }
-  
-  footer a:hover {
-    margin: 0 25px;
-    text-decoration: none;
-    color: rgb(241, 205, 60);
-  }
-
-
-
   #carousel-title {
     font-family: arial;
     font-size: 40px;
     color: rgb(231, 211, 211);
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   #carousel-text {
     font-family: MyCustomFont1;
     font-size: 20px;
     color: rgb(231, 211, 211);
+    margin-bottom: 0px;
+    padding: 0px;
   }
 
   .orange_line {
@@ -221,35 +134,103 @@
     flex-direction: row;
   }
 
-  @font-face {
-    font-family: 'MyCustomFont'; /* Имя шрифта, которое вы будете использовать */
-    src: url('./Fonts/Inter-Thin.otf') format('opentype'); /* Путь к файлу шрифта */
-    font-weight: normal; /* Опционально: можно указать вес */
-    font-style: normal; /* Опционально: можно указать стиль (например, italic) */
+#type2 {
+  background: #66bb6a;
+  padding-bottom: 50px;
 }
 
-@font-face {
-    font-family: 'MyCustomFont1'; /* Имя шрифта, которое вы будете использовать */
-    src: url('./Fonts/Montserrat-Regular.ttf') format('opentype'); /* Путь к файлу шрифта */
-    font-weight: normal; /* Опционально: можно указать вес */
-    font-style: normal; /* Опционально: можно указать стиль (например, italic) */
+
+/* Buton 5 Bitti */
+
+.btn-6 {
+  text-align: center;
+  display: inline-block;
+  padding: 15px 40px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position:relative;
+  overflow:hidden;
+  margin: 0 20px;
 }
 
-.simple-button {
-  
-  width:100px; 
-  height: 30px; /* Размеры кнопки */
-  bottom: 10px;
-  left: 50%;
-  
-  transform: translateX(-50%);
-  margin-left: 40px;
-  margin-top: 20px;
-  margin-bottom: 100px;
-  /* display: flex; */
-  /* gap: 7px; Увеличен промежуток между кнопками */
-
+.btn-6:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0;
+  background : #fff;
+  left: 100%;
+  bottom: 0;
+  transition: all .3s;
+  opacity: 0.3;
 }
+
+.btn-6:hover:before {
+  width: 100%;
+  left:0;
+}
+
+/* Buton 6 Bitti */
+
+.btn-7 {
+  text-align: center;
+  display: inline-block;
+  padding: 15px 40px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position:relative;
+  overflow:hidden;
+  margin: 0 20px;
+}
+
+.btn-7:before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 100%;
+  background : #fff;
+  left: 0;
+  top: 0;
+  transition: all .3s;
+  opacity: 0.3;
+}
+
+.btn-7:hover:before {
+  height: 100%;
+}
+
+/* Buton 7 Bitti */
+
+.btn-8 {
+  text-align: center;
+  display: inline-block;
+  padding: 15px 40px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position:relative;
+  overflow:hidden;
+  margin: 0 20px;
+}
+
+.btn-8:before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 100%;
+  background : #fff;
+  left: 0;
+  bottom: 0;
+  transition: all .3s;
+  opacity: 0.3;
+}
+
+.btn-8:hover:before {
+  height: 100%;
+}
+
   </style>
 </head>
 <body>
@@ -266,7 +247,7 @@
 
     <div class="carousel">
         <p id="carousel-title">Nintendo Switch Oled </p>
-        <p id="carousel-text">Первое направление моей деятельности это прошивка приставок Nintendo Wsitch Oled</p>
+        <p id="carousel-text">Современные приставки Nintendo Switch: Oled, Lite, Rev1, Rev2</p>
         <div class="carousel-buttons">
           <button onclick="setSlide(0)" class="active"></button>
           <button onclick="setSlide(1)" ></button>
@@ -302,8 +283,19 @@
       Lorem ipsum, dolor sit amet <br>
       consectetur adipisicing elit.<br> 
       Excepturi, perferendis!<br>
-      <button class="simple-button" >ONE</button>
-      <button  class="simple-button">TWOO</button>
+
+  
+  <div class="btn-6">
+  BUTTON
+</div>
+  
+    <div class="btn-7">
+  BUTTON
+</div>
+  
+     <div class="btn-8">
+  BUTTON
+</div>
     </div>
   </section>
 
@@ -322,16 +314,16 @@
   <script>
    const slides = [
   {
-    title: "Nintendo Switch Oled",
-    text: "Первое направление моей деятельности это прошивка приставок Nintendo Wsitch Oled",
+    title: "Nintendo Switch",
+    text: "Современные приставки Nintendo Switch: Oled, Lite, Rev1, Rev2",
   },
   {
     title: "SSD76",
-    text: "Второе направление моей деятельности это SSD76",
+    text: "Быстрые и надежные SSD76 диски ускорят ваш ноутбук",
   },
   {
     title: "Лазерная гравировка",
-    text: "Лазерная гравировка на флешках иручках",
+    text: "Лазерная гравировка на флешках и учках индивидуальный подарок",
   },
 ];
 
