@@ -6,54 +6,35 @@
     <link rel="stylesheet" href="styles.css">
     <style>
 
-    .main   {
-        width: 100vh;
+.container {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
+      padding: 20px;
     }
-
-    .container {
-        /* display: flex;
-      justify-content: raw;
-        align-items: raw; */
-      width: calc(100%-20px);
-      max-width: 420px; /*Максимальная ширина контейнера  */
-      margin: 10px ;
-      background-color: #fff;
-      border: 1px solid #ddd;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      border-radius: 8px;
-      overflow: hidden;
-      /* margin-left: auto;
-    margin-right: auto; */
-    padding: 1px;
-    aspect-ratio: 3/4.5;
-
+    .info {
+      max-width: 50%;
+      margin: 50px;
     }
-
-    .cont_text {
-        color: azure;
-        padding: 10%;
-        width: 40%;
-        height: 40%;
-        font-size: 30px;
+    .info h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color:beige;
     }
-
-    .info  {
-        font-size: 30px;
+    .info p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color:beige;
     }
-
-    #white  {
-        color: beige;
+    
+    .image-container {
+      flex: 1;
+      text-align: center;
     }
-
-    /* @media (max-width: 472px) {
-        .container {
-            width: 100px;
-            height: auto;
-        }
-    } */
+    .image-container img {
+      max-width: 100%;
+      max-height: 400px;
+    }
      
       
     </style>
@@ -68,15 +49,20 @@
           <a href="contacts.html">КОНТАКТЫ</a>
         </nav>
     </header>
-    <main>
-        <div class="info" id="white">SSD76 быстрые надежные с SM59XT на борту</div>
-        <div class="container">
-            
-          <img src="./SSD76_content/nintendo.jpg" alt="Example Image">
-         
-        </div>
-        <div class="cont_text">Это диски SSD128Gb</div>
-      </main>
+
+
+ <div class="container">
+   
+  <img src="./SSD76_content/ssd76.jpg" alt="Новогодняя ёлка">
+    
+    <div class="info">
+      <h1>SSD Диски быстрые надежные</h1>
+      <p>Отличный способ ускорить свой компьютер или дать вторую жизнь вашему ноутбуку. SSD76 имеют на борту хороший тайваньский чип фирмы Silicon Micro SM590XT и обеспечивают надежную и быструю работу.</p>
+    </div>
+    <div class="image-container">
+      <img src="https://via.placeholder.com/400x600" alt="Новогодняя ёлка">
+    </div>
+  </div>
                
         
 
