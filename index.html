@@ -71,6 +71,7 @@
       gap: 20px;
       padding: 20px;
       flex-wrap: wrap;
+      
     }
     .product-card {
       border: 1px solid #ccc;
@@ -127,6 +128,8 @@
     margin-top: 5%;
     margin-left: 5%;
     color: white;
+    width: 900px;
+
   }
 
   .prefooter {
@@ -142,6 +145,25 @@
 
 /* Buton 5 Bitti */
 
+.buttons_div {
+  
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.btn-6, .btn-7, .btn-8 {
+  
+margin: 20px;
+ 
+}
+
+.item {
+    flex: 1 1 200px; /* Элементы займут минимум 200px и смогут увеличиваться */
+    
+  }
+
+
 .btn-6 {
   text-align: center;
   display: inline-block;
@@ -151,7 +173,7 @@
   letter-spacing: 2px;
   position:relative;
   overflow:hidden;
-  margin: 0 20px;
+  margin: 10px;
 }
 
 .btn-6:before {
@@ -182,7 +204,7 @@
   letter-spacing: 2px;
   position:relative;
   overflow:hidden;
-  margin: 0 20px;
+  margin: 10px;
 }
 
 .btn-7:before {
@@ -212,7 +234,7 @@
   letter-spacing: 2px;
   position:relative;
   overflow:hidden;
-  margin: 0 20px;
+  margin: 10px;
 }
 
 .btn-8:before {
@@ -237,6 +259,7 @@
 
 #head {
   font-size: 40px;
+  margin-left: 5%;
 }
 
   </style>
@@ -293,19 +316,25 @@
         выгляжит вроде красиво
       </div>  
 
-  
+  <div class="buttons_div">
+
+    
   <div class="btn-6">
-  КНОПКА1
-</div>
+    КНОПКА1
+  </div>
+    
+      <div class="btn-7">
+    Интересно на сколько большая может быть кнопка
+  </div>
+    
+       <div class="btn-8">
+    Кнопка3
+  </div>
+      </div>
+
+  </div>
+
   
-    <div class="btn-7">
-  Интересно на сколько большая может быть кнопка
-</div>
-  
-     <div class="btn-8">
-  Кнопка3
-</div>
-    </div>
   </section>
 
 <div class="prefooter">
