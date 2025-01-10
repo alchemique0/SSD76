@@ -52,6 +52,7 @@ header a.sssd:hover {
     font-size: 25px;
     font-family: MyCustomFont;
   margin: 0 10px;
+  margin-left: 8%;
   text-decoration: none;
   color: rgb(241, 205, 60);
   font-weight: bold;
