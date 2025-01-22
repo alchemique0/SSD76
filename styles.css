@@ -8,8 +8,8 @@ body {
   }
 
   header {
-    background: rgba(129, 128, 128, 0.3);
-    margin-top: 40px ;
+    background: rgba(42, 42, 42, 0.999);
+    margin-top: 20px ;
     color: white;
     padding: 7px;
     display: flex;
