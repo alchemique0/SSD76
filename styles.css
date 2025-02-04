@@ -4,11 +4,11 @@ body {
     background: url('./Main_Content/background.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: 'MyCustomFont', sans-serif; /* Укажите имя шрифта, заданное в font-family */
-
+    
   }
 
   header {
-    background: rgba(42, 42, 42, 0.999);
+    background: #5C1010;
     margin-top: 20px ;
     color: white;
     padding: 7px;
@@ -43,7 +43,8 @@ header a.sssd {
     font-family: MyCustomFont;
   margin: 0 10px;
   margin-left: 8%;
-  text-decoration: none;
+  margin-top: 20px;
+  text-decoration:none;
   color: rgb(231, 211, 211);
   font-weight: bold;
 }

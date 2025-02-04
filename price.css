@@ -1,0 +1,40 @@
+.price {
+    margin: 20px;
+    margin-top: 50px;
+    /* box-sizing: border-box; */
+    width: 497px;
+    height: 1021px;
+    /* border: 6px solid #000000; */
+    }
+
+    .price_firmware {
+
+width: 383px;
+height: 451px;
+background: #095C64;
+border: 3px solid #000000;
+border-radius: 10px;
+
+    }
+
+    .price_firmware_baner {
+width: 100%;
+height: 52px;
+background: #FFC502;
+text-align: center;
+    }
+
+    .price_firmware_baner p {
+        padding-top: 15px;
+        font-size: 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .price_firmware span {
+        padding-top: 15px;
+        font-size: 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: beige;
+        margin: 60px;
+        margin-top: 30px;
+    }

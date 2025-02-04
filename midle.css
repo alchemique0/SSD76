@@ -1,0 +1,195 @@
+.midle {
+    margin-left: 20px;
+    margin-right: 20px;
+width: 876px;
+height: 1143px;
+background: rgba(58, 51, 51, 0.62);
+}
+
+.new_project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+.switch {
+    text-align: center;
+    margin-left: 90px;
+width: 657px;
+height: 155px;
+color: azure;
+font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 500;
+font-size: 128px;
+line-height: 204px;
+letter-spacing: 0.05em;
+}
+
+
+.line1 {
+position: absolute;
+width: 51.97px;
+height: 15.5px;
+left: 995px;
+top: 259px;
+
+background: #177D93;
+border-radius: 5px;
+}
+
+
+.line2   {
+position: absolute;
+width: 51.97px;
+height: 15.5px;
+left: 876px;
+top: 259px;
+
+background: #0A846F;
+border-radius: 5px;
+}
+
+
+.line3   {
+position: absolute;
+width: 33.89px;
+height: 15.5px;
+left: 1067px;
+top: 259px;
+
+background: #0A846F;
+border-radius: 5px;
+}
+
+
+.line4   {
+position: absolute;
+width: 22px;
+height: 15px;
+left: 953px;
+top: 259px;
+
+background: #E7BE2C;
+border-radius: 5px;
+}
+
+.midle_nintendo {
+display: flex;
+justify-content: center;
+
+}
+
+.midle_nintendo_1 {
+width: 212px;
+height: 309px;
+background: #012830;
+border: 1px solid #000000;
+margin: 20px;
+margin-top: 70px;
+}
+
+.midle_nintendo_2 {
+    width: 212px;
+    height: 309px;
+    background: #012830;
+    border: 1px solid #000000;
+    margin: 20px;
+    margin-top: 70px;
+}
+
+.midle_nintendo_3 {
+    width: 212px;
+    height: 309px;
+    background: #012830;
+    border: 1px solid #000000;
+    margin: 20px;
+    margin-top: 70px;
+}
+
+.review_header {
+    width: 144px;
+    height: 40px;
+    margin: 50px;
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+ 
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    color: #D32626;
+    
+    }
+
+.reviews {
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+
+.review1 {
+width: 200px;
+height: 100px;
+border: 1px solid #D0A4A4;
+margin-left: 60px;
+color: azure;
+}
+
+.review2 {  
+    width: 300px;
+    height: 100px;
+    border: 1px solid #D0A4A4;
+    margin-left: 60px;
+    color: azure;
+    }
+
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .foot1 { 
+        text-align: center;
+        margin: 20px;
+        width: 122px;
+        height: 40px;
+        background: rgba(211, 57, 59, 0.57);
+        border: 3px solid #373030;
+        border-radius: 5px;
+    }
+
+    .foot2 {
+        text-align: center;
+        margin: 20px;
+width: 155px;
+height: 40px;
+background: rgba(0, 120, 104, 0.51);
+border: 3px solid #373030;
+border-radius: 5px;
+    }
+
+    .foot3 {
+        text-align: center;
+        margin: 20px;
+        width: 148px;
+        height: 40px;
+        background: rgba(0, 120, 104, 0.49);
+        border: 3px solid #373030;
+        border-radius: 5px;
+    }
+
+    .foot4 {
+        text-align: center;
+        margin: 20px;
+        width: 141px;
+        height: 40px;
+        background: rgba(75, 157, 232, 0.41);
+        border: 3px solid #373030;
+        border-radius: 5px;
+    }
+
+
+
