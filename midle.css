@@ -6,11 +6,6 @@ height: 1143px;
 background: rgba(58, 51, 51, 0.62);
 }
 
-.new_project {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
 
 .switch {
     text-align: center;
@@ -26,6 +21,9 @@ line-height: 204px;
 letter-spacing: 0.05em;
 }
 
+.line {
+    margin-top: 40px;
+}
 
 .line1 {
 position: absolute;
@@ -69,7 +67,6 @@ width: 22px;
 height: 15px;
 left: 953px;
 top: 259px;
-
 background: #E7BE2C;
 border-radius: 5px;
 }
@@ -80,13 +77,39 @@ justify-content: center;
 
 }
 
+.midle_info {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+.midle_info span {
+font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 57px;
+letter-spacing: 0.05em;
+color: #EB3436;
+}
+
+.midle_info p {
+font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 0px;
+letter-spacing: 0.05em;
+color: #EAE4E4;
+}
+
 .midle_nintendo_1 {
-width: 212px;
-height: 309px;
-background: #012830;
-border: 1px solid #000000;
-margin: 20px;
-margin-top: 70px;
+    width: 212px;
+    height: 309px;
+    background: #012830;
+    border: 1px solid #000000;
+    margin: 20px;
+    margin-top: 70px;
 }
 
 .midle_nintendo_2 {
@@ -137,44 +160,39 @@ color: azure;
 }
 
 .review2 {  
-    width: 300px;
-    height: 100px;
-    border: 1px solid #D0A4A4;
-    margin-left: 60px;
-    color: azure;
-    }
-
+width: 300px;
+height: 100px;
+border: 1px solid #D0A4A4;
+margin-left: 60px;
+color: azure;
+}
 
     .footer {
-        display: flex;
-        justify-content: center;
-        margin: 20px;
-        margin-top: 190px;
-     
+display: flex;
+justify-content: center;
+margin: 20px;
+margin-top: 50px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
 line-height: 24px;
-
 color: #FFFFFF;
-
-
-    }
+}
 
     .foot1 { 
-        text-align: center;
-        margin: 20px;
-        width: 122px;
-        height: 40px;
-        background: rgb(211, 57, 60);
-        border: 3px solid #373030;
-        border-radius: 5px;
+text-align: center;
+margin: 20px;
+width: 122px;
+height: 40px;
+background: rgb(211, 57, 60);
+border: 3px solid #373030;
+border-radius: 5px;
     }
 
     .foot2 {
-        text-align: center;
-        margin: 20px;
+text-align: center;
+margin: 20px;
 width: 155px;
 height: 40px;
 background: rgb(0, 120, 104);
@@ -183,23 +201,23 @@ border-radius: 5px;
     }
 
     .foot3 {
-        text-align: center;
-        margin: 20px;
-        width: 148px;
-        height: 40px;
-        background: rgb(0, 120, 104);
-        border: 3px solid #373030;
-        border-radius: 5px;
+text-align: center;
+margin: 20px;
+width: 148px;
+height: 40px;
+background: rgb(0, 120, 104);
+border: 3px solid #373030;
+border-radius: 5px;
     }
 
     .foot4 {
-        text-align: center;
-        margin: 20px;
-        width: 141px;
-        height: 40px;
-        background: rgb(75, 156, 232);
-        border: 3px solid #373030;
-        border-radius: 5px;
+text-align: center;
+margin: 20px;
+width: 141px;
+height: 40px;
+background: rgb(75, 156, 232);
+border: 3px solid #373030;
+border-radius: 5px;
     }
 
 

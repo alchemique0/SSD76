@@ -7,14 +7,31 @@
     /* border: 6px solid #000000; */
     }
 
-    .price_firmware {
+    .price h1 {
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height */
+color: #EEA820;
+    }
 
+    .price p {
+font-family: 'jsMath-cmbx10';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 16px;
+color: #395C5D;
+    }
+
+    .price_firmware {
 width: 383px;
 height: 451px;
 background: #095C64;
 border: 3px solid #000000;
 border-radius: 10px;
-
     }
 
     .price_firmware_baner {
@@ -25,16 +42,30 @@ text-align: center;
     }
 
     .price_firmware_baner p {
-        padding-top: 15px;
-        font-size: 20px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
+      padding-top: 15px;
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 0.05em;
+color: #000000;
     }
 
-    .price_firmware span {
-        padding-top: 15px;
-        font-size: 20px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
+    .price_firmware p {
+        font-size: 25px;
+        font-family:Arial, Helvetica, sans-serif;
         color: beige;
-        margin: 60px;
-        margin-top: 30px;
+        /* margin: 60px; */
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .call_to_us {
+        
+            position: fixed;
+            top: 60%;
+            left: 90%;
+            width: 90%;
+          
     }

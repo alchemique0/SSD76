@@ -7,6 +7,12 @@ body {
     
   }
 
+  .new_project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
   header {
     background: #5C1010;
     margin-top: 20px ;
@@ -39,14 +45,17 @@ body {
 }
 
 header a.sssd {
-    font-size: 25px;
-    font-family: MyCustomFont;
-  margin: 0 10px;
-  margin-left: 8%;
-  margin-top: 20px;
-  text-decoration:none;
-  color: rgb(231, 211, 211);
-  font-weight: bold;
+  margin-left: 300px;
+width: 160px;
+height: 76px;
+font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 76px;
+letter-spacing: 0.05em;
+color: #FFF8F8;
+
 }
 
 header a.sssd:hover {
