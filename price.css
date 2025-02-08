@@ -65,12 +65,17 @@ font-family: 'MyCustomFont4' ;
 
 
     .Price_firmware_prices p {
-        font-size: 20px;
-        line-height: 1.5;
-        color: #EEA820;
-        margin-top: 20px;
-        margin-left: 20px;
-        font-family: 'MyCustomFont4' ;
+margin-top: 20px;
+margin-left: 20px;
+width: 350px;
+height: 50px;
+font-family: 'MyCustomFont4';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+color: #EEA820;
+        /* NINTENDO SWITCH OLED 5000р */
 
     }
 

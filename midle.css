@@ -107,6 +107,13 @@ letter-spacing: 0.05em;
 color: #EAE4E4;
 }
 
+.midle_nintendo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .midle_nintendo_1 {
     width: 212px;
     height: 309px;
