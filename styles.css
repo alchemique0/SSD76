@@ -46,7 +46,7 @@ body {
 }
 
 header a.sssd {
-  margin-left: 300px;
+  margin-left: 10%;
 /* width: 160px;
 height: 76px; */
 font-family: 'MyCustomFont3';
@@ -61,7 +61,7 @@ background: rgb(209, 32, 20);
 }
 
 header a.sssd:hover {
-  margin-left: 300px;
+  margin-left: 10%;
 /* width: 160px;
 height: 76px; */
 font-family: 'MyCustomFont3';
