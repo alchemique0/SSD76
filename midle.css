@@ -178,58 +178,6 @@ margin-left: 60px;
 color: azure;
 }
 
-    .footer {
-display: flex;
-justify-content: center;
-margin: 20px;
-margin-top: 50px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
-color: #FFFFFF;
-}
-
-    .foot1 { 
-text-align: center;
-margin: 20px;
-width: 122px;
-height: 40px;
-background: rgb(211, 57, 60);
-border: 3px solid #373030;
-border-radius: 5px;
-    }
-
-    .foot2 {
-text-align: center;
-margin: 20px;
-width: 155px;
-height: 40px;
-background: rgb(0, 120, 104);
-border: 3px solid #373030;
-border-radius: 5px;
-    }
-
-    .foot3 {
-text-align: center;
-margin: 20px;
-width: 148px;
-height: 40px;
-background: rgb(0, 120, 104);
-border: 3px solid #373030;
-border-radius: 5px;
-    }
-
-    .foot4 {
-text-align: center;
-margin: 20px;
-width: 141px;
-height: 40px;
-background: rgb(75, 156, 232);
-border: 3px solid #373030;
-border-radius: 5px;
-    }
-
+   
 
 
