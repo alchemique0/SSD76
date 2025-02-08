@@ -5,6 +5,7 @@
     width: 497px;
     height: 1021px;
     /* border: 6px solid #000000; */
+    font-family: 'MyCustomFont4' ;
     }
 
     .price h1 {
@@ -13,17 +14,20 @@ font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 24px;
-/* identical to box height */
 color: #EEA820;
+font-family: 'MyCustomFont4' ;
+/* Прошивка вашей приставки */
     }
 
     .price p {
 font-family: 'jsMath-cmbx10';
 font-style: normal;
 font-weight: 700;
-font-size: 15px;
+font-size: 10px;
 line-height: 16px;
 color: #395C5D;
+font-family: 'MyCustomFont4' ;
+/* Цены актуальны... */
     }
 
     .price_firmware {
@@ -32,6 +36,7 @@ height: 451px;
 background: #095C64;
 border: 3px solid #000000;
 border-radius: 10px;
+font-family: 'MyCustomFont4' ;
     }
 
     .price_firmware_baner {
@@ -39,26 +44,34 @@ width: 100%;
 height: 52px;
 background: #FFC502;
 text-align: center;
+font-family: 'MyCustomFont4' ;
+font-size: 30px;
     }
 
     .price_firmware_baner p {
       padding-top: 15px;
+      margin-left: 18px;
 font-family: 'Press Start 2P';
 font-style: normal;
 font-weight: 400;
-font-size: 24px;
+font-size: 25px;
 line-height: 24px;
 letter-spacing: 0.05em;
 color: #000000;
+font-family: 'MyCustomFont4' ;
+/* СТОИМОСТЬ */
     }
 
-    .price_firmware p {
-        font-size: 25px;
-        font-family:Arial, Helvetica, sans-serif;
-        color: beige;
-        /* margin: 60px; */
+
+
+    .Price_firmware_prices p {
+        font-size: 20px;
+        line-height: 1.5;
+        color: #EEA820;
         margin-top: 20px;
         margin-left: 20px;
+        font-family: 'MyCustomFont4' ;
+
     }
 
     .call_to_us {

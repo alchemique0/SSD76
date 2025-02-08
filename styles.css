@@ -47,15 +47,16 @@ body {
 
 header a.sssd {
   margin-left: 300px;
-width: 160px;
-height: 76px;
-font-family: 'MuseoModerno';
+/* width: 160px;
+height: 76px; */
+font-family: 'MyCustomFont3';
 font-style: normal;
-font-weight: 500;
+font-weight: 300;
 font-size: 48px;
 line-height: 76px;
 letter-spacing: 0.05em;
 color: #FFF8F8;
+background: rgb(209, 32, 20);
 
 }
 
@@ -122,7 +123,21 @@ footer a:hover {
   font-style: normal; /* Опционально: можно указать стиль (например, italic) */
 }
 
+@font-face {
+  font-family: 'MyCustomFont3'; /* Имя шрифта, которое вы будете использовать */
+  src: url('./Fonts/MuseoModerno-Medium.ttf') format('opentype'); /* Путь к файлу шрифта */
+  font-weight: normal; /* Опционально: можно указать вес */
+  font-style: normal; /* Опционально: можно указать стиль (например, italic) */
+}
 
+@font-face {
+  font-family: 'MyCustomFont4'; /* Имя шрифта, которое вы будете использовать */
+  src: url('./Fonts/PressStart2P-Regular.ttf') format('opentype'); /* Путь к файлу шрифта */
+  font-weight: normal; /* Опционально: можно указать вес */
+  font-style: normal; /* Опционально: можно указать стиль (например, italic) */
+}
+
+PressStart2P-Regular
 
 #type2 {
 background: #66bb6a;
