@@ -3,7 +3,7 @@
     margin-top: 50px;
     /* box-sizing: border-box; */
     width: 497px;
-    height: 1021px;
+    /* height: 1021px; */
     /* border: 6px solid #000000; */
     font-family: 'MyCustomFont4' ;
     }
@@ -79,11 +79,4 @@ color: #EEA820;
 
     }
 
-    .call_to_us {
-        
-            position: fixed;
-            top: 60%;
-            left: 90%;
-            width: 90%;
-          
-    }
+ 

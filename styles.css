@@ -209,4 +209,11 @@ border: 3px solid #373030;
 border-radius: 5px;
     }
 
-
+   .call_to_us {
+        
+            position: fixed;
+            top: 60%;
+            left: 90%;
+            width: 90%;
+          
+    }
