@@ -12,6 +12,7 @@ background: rgba(58, 51, 51, 0.62);
 .switch {
     font-family: 'MyCustomFont3';
     text-align: center;
+    line-height: 14px; /* Межстрочный интервал будет 24 пикселя */
     /* margin-left: 90px; */
 /* width: 657px;
 height: 155px; */
@@ -21,7 +22,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 128px;
 line-height: 204px;
-letter-spacing: 0.05em;
+/* letter-spacing: 0.05em; */
 
 }
 
@@ -80,7 +81,7 @@ justify-content: center;
 }
 
 .midle_info span {
-font-family: 'MuseoModerno';
+font-family: 'Nintendo';
 font-style: normal;
 font-weight: 800;
 font-size: 36px;
@@ -90,7 +91,7 @@ color: #EB3436;
 }
 
 .midle_info p {
-font-family: 'MuseoModerno';
+font-family: 'Nintendo';
 font-style: normal;
 font-weight: 400;
 font-size: 25px;
@@ -105,6 +106,15 @@ color: #EAE4E4;
     justify-content: center;
     flex-wrap: wrap;
     /* margin-top: 10px; */
+    color: #EAE4E4;
+}
+
+.midle_nintendo p {
+
+    color: #EAE4E4;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .midle_nintendo_1 {
@@ -117,7 +127,7 @@ color: #EAE4E4;
     border: 1px solid #000000;
     margin-left: 40px;
     
-    
+     
 }
 
 .midle_nintendo_2 {
@@ -130,6 +140,7 @@ color: #EAE4E4;
     border: 1px solid #000000;
     margin-left: 40px;
     
+    
 }
 
 .midle_nintendo_3 {
@@ -141,6 +152,7 @@ color: #EAE4E4;
     /* background: #012830; */
     border: 1px solid #000000;
     margin-left: 40px;
+    
     
 }
 
@@ -168,10 +180,10 @@ margin-bottom: 50px;
 }
 
 .review1 {
-width: 400px;
+width: 350px;
 height: 100px;
 border: 1px solid #D0A4A4;
-margin-left: 50px;
+margin-left: 20px;
 color: azure;
 }
 

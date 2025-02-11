@@ -1,4 +1,13 @@
  
+.download_logo {
+  background-image: url('Main_Content/Nintendo_switch_logo.png');
+  background-position: center;
+  background-size: cover;
+  width: 63px;
+height: 54.54px;
+margin: 4px;
+}
+
 .download_container  {
   margin: 20px;
   margin-top: 50px;
@@ -6,9 +15,8 @@ width: 372px;
 height: 770px;
 background: linear-gradient(29.17deg, #0A1B23 37.61%, #077F64 97.65%);
 
-
 /* Fonts */
-font-family: 'My_Nintendo';
+font-family: 'Nintendo';
 font-style: normal;
 font-size: 15px;
 font-weight: 500;
@@ -31,10 +39,7 @@ background: #C02E2E;
 }
 
 .download_logo {
-width: 63px;
-height: 54.54px;
-margin: 4px;
-background: url("Main_Content/Nintendo_switch_logo.png");
+
 }
 .download_text {
   text-align: center;
