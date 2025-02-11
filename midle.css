@@ -120,6 +120,7 @@ padding-bottom: 20px;
 
 .midle_nintendo_1 {
     background: url("Main_Content/Nintendo-Switch-Logo-Green.jpg");
+    
     background-size: cover; /* Масштабирует изображение, чтобы оно покрывало весь контейнер */
     background-position: center; /* Центрирует изображение */
     width: 212px;
@@ -161,6 +162,7 @@ padding-bottom: 20px;
     /* width: 144px; */
     height: 40px;
     margin: 50px;
+    margin-bottom: 90px;
     font-family: 'Libre Bodoni';
     font-style: normal;
     font-weight: 700;
