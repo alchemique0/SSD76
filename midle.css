@@ -161,6 +161,7 @@ color: #EAE4E4;
 
 .reviews {
 display: flex;
+flex-wrap: wrap;
 justify-content: left;
 margin-top: 50px;
 margin-bottom: 50px;
