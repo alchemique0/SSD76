@@ -32,15 +32,11 @@ color: #FFF5F5;
 
 .download_head {
     display: flex;
-
 width: 100%;
 height: 62.48px;
 background: #C02E2E;
 }
 
-.download_logo {
-
-}
 .download_text {
   text-align: center;
   padding: 20px;

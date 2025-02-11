@@ -22,17 +22,7 @@
         margin-bottom: 10px;
     }
 
-    .product-card {
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        overflow: hidden;
-        width:auto ;
-        height: 200px;
-        text-align: left;
-        padding-left: 5px;
-        background: white;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-      }
+   
 
       .review1 {
         width: 330px;
@@ -77,10 +67,22 @@
                     font-family: 'Nintendo';
                     font-style: normal;
                     font-weight: 800;
-                    font-size: 20px;
+                    font-size: 25px;
                     line-height: 20px;
                     /* letter-spacing: 0.05em;  */
                     color: #EB3436;
                     }
+
+                    .product-card {
+                        border: 1px solid #ccc;
+                        border-radius: 8px;
+                        overflow: hidden;
+                        width:auto ;
+                        height: 200px;
+                        text-align: left;
+                        padding-left: 5px;
+                        background: white;
+                        transition: transform 0.3s ease, box-shadow 0.3s ease;
+                      }
 
   }
