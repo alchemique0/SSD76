@@ -90,14 +90,15 @@ letter-spacing: 0.05em;
 color: #EB3436;
 }
 
-.midle_info p {
+.midle_info_submenu {
 font-family: 'Nintendo';
 font-style: normal;
 font-weight: 400;
 font-size: 25px;
-line-height: 0px;
-letter-spacing: 0.05em;
+line-height: 30px;
+/* letter-spacing: 0.05em; */
 color: #EAE4E4;
+padding-bottom: 20px;
 }
 
 .midle_nintendo {
@@ -177,6 +178,7 @@ flex-wrap: wrap;
 justify-content: left;
 margin-top: 50px;
 margin-bottom: 50px;
+margin-left: 30px;
 }
 
 .review1 {

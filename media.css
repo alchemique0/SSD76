@@ -62,14 +62,15 @@
             }
 
 
-            .midle_info p {
+            .midle_info_submenu {
                 font-family: 'Nintendo';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 15px;
-                line-height: 0px;
+                line-height: 20px;
                 letter-spacing: 0.05em;
                 color: #EAE4E4;
+                margin-bottom: 10px;
                 }
 
                 .midle_info span {
