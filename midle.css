@@ -75,7 +75,7 @@ justify-content: center;
 
 .midle_info {
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-bottom: 0px;
 }
 
@@ -93,7 +93,7 @@ color: #EB3436;
 font-family: 'MuseoModerno';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 25px;
 line-height: 0px;
 letter-spacing: 0.05em;
 color: #EAE4E4;
@@ -104,37 +104,48 @@ color: #EAE4E4;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    /* margin-top: 10px; */
 }
 
 .midle_nintendo_1 {
+    background: url("Main_Content/Nintendo-Switch-Logo-Green.jpg");
+    background-size: cover; /* Масштабирует изображение, чтобы оно покрывало весь контейнер */
+    background-position: center; /* Центрирует изображение */
     width: 212px;
     height: 309px;
-    background: #012830;
+    /* background: #012830; */
     border: 1px solid #000000;
-    margin: 20px;
-    margin-top: 70px;
+    margin-left: 40px;
+    
+    
 }
 
 .midle_nintendo_2 {
+    background: url("Main_Content/Nintendo-Switch-Logo-Green.jpg");
+    background-size: cover; /* Масштабирует изображение, чтобы оно покрывало весь контейнер */
+    background-position: center; /* Центрирует изображение */
     width: 212px;
     height: 309px;
-    background: #012830;
+    /* background: #012830; */
     border: 1px solid #000000;
-    margin: 20px;
-    margin-top: 70px;
+    margin-left: 40px;
+    
 }
 
 .midle_nintendo_3 {
+    background-image: url('Main_Content/Nintendo-Switch-Logo-Red.png');
+    background-size: cover;
+    background-position:top;
     width: 212px;
     height: 309px;
-    background: #012830;
+    /* background: #012830; */
     border: 1px solid #000000;
-    margin: 20px;
-    margin-top: 70px;
+    margin-left: 40px;
+    
 }
 
 .review_header {
-    width: 144px;
+    /* width: 144px; */
     height: 40px;
     margin: 50px;
     font-family: 'Libre Bodoni';
@@ -150,15 +161,16 @@ color: #EAE4E4;
 
 .reviews {
 display: flex;
-justify-content: center;
+justify-content: left;
 margin-top: 50px;
+margin-bottom: 50px;
 }
 
 .review1 {
-width: 200px;
+width: 400px;
 height: 100px;
 border: 1px solid #D0A4A4;
-margin-left: 100px;
+margin-left: 50px;
 color: azure;
 }
 
@@ -166,7 +178,7 @@ color: azure;
 width: 300px;
 height: 100px;
 border: 1px solid #D0A4A4;
-margin-left: 10px;
+margin-left: 20px;
 color: azure;
 }
 

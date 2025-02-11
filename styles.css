@@ -143,6 +143,12 @@ footer a:hover {
   font-style: normal; /* Опционально: можно указать стиль (например, italic) */
 }
 
+@font-face {
+  font-family: 'My_Nintendo'; /* Имя шрифта, которое вы будете использовать */
+  src: url('./Fonts/Nintendo_Switch_UI_Font.ttf') format('opentype'); /* Путь к файлу шрифта */
+  font-weight: normal; /* Опционально: можно указать вес */
+  font-style: normal; /* Опционально: можно указать стиль (например, italic) */
+}
 
 
 #type2 {
