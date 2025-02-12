@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 550px) {
  
     .switch {
         font-size: 70px;
@@ -29,7 +29,7 @@
         width: 330px;
         height: 100px;
         border: 1px solid #D0A4A4;
-        margin-left: 20px;
+        margin-left: 0px;
         margin-bottom: 20px;
         color: azure;
         }
@@ -38,52 +38,80 @@
         width: 300px;
         height: 100px;
         border: 1px solid #D0A4A4;
-        margin-left: 20px;
+        margin-left: 0px;
         color: azure;
         }
 
-        .price {
-            margin: 90px;
-            margin-top: 50px;
-            /* box-sizing: border-box; */
-            width: 450px;
-            /* height: 1021px; */
-            /* border: 6px solid #000000; */
-            font-family: 'MyCustomFont4' ;
-            }
+    .price {
+        margin: 90px;
+        margin-top: 50px;
+        /* box-sizing: border-box; */
+        width: 450px;
+        /* height: 1021px; */
+        /* border: 6px solid #000000; */
+        font-family: 'MyCustomFont4' ;
+    }
 
 
-            .midle_info_submenu {
-                font-family: 'Nintendo';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 15px;
-                line-height: 20px;
-                letter-spacing: 0.05em;
-                color: #EAE4E4;
-                margin-bottom: 10px;
-                }
+    .midle_info_submenu {
+            font-family: 'Nintendo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            letter-spacing: 0.05em;
+            color: #EAE4E4;
+            margin-bottom: 10px;
+    }
 
-                .midle_info span {
-                    font-family: 'Nintendo';
-                    font-style: normal;
-                    font-weight: 800;
-                    font-size: 25px;
-                    line-height: 20px;
-                    /* letter-spacing: 0.05em;  */
-                    color: #EB3436;
-                    }
+    .midle_info span {
+            font-family: 'Nintendo';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 25px;
+            line-height: 20px;
+            /* letter-spacing: 0.05em;  */
+            color: #EB3436;
+    }
 
-                    .product-card {
-                        border: 1px solid #ccc;
-                        border-radius: 8px;
-                        overflow: hidden;
-                        width:auto ;
-                        height: 200px;
-                        text-align: left;
-                        padding-left: 5px;
-                        background: white;
-                        transition: transform 0.3s ease, box-shadow 0.3s ease;
-                      }
+    .product-card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            width:auto ;
+            height: 200px;
+            text-align: left;
+            padding-left: 5px;
+            background: white;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
 
+ 
+
+
+  .outer-shield {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px; /* Размер внешнего контейнера */
+    height: 150px; /* Размер внешнего контейнера */
+    background-color: #1d1c1c; /* Темно-серый цвет */
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 83%, 0 75%); /* Форма щита */
+    margin: 20px;
+    color: azure;
+    text-align: center;
   }
+
+  /* Внутренний контейнер */
+  .inner-shield {
+    width: 55px; /* В два раза меньше внешнего */
+    height: 80px; /* В два раза меньше внешнего */
+    /* background-color: white;  */
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 90%, 0 75%); /* Форма щита */
+    transform: translateY(-65px); /* Поднимаем внутренний блок вверх */
+    background-image: url('Main_Content/Nintendo-Switch-Logo-Green.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+
+}

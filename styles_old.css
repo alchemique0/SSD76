@@ -1,0 +1,253 @@
+
+.main-banner {
+      position: relative;
+      
+      text-align: center;
+      padding: 20px;
+      /* background: rgba(203, 203, 203, 0.3); */
+      color: white;
+      margin: 20px;
+      border-radius: 0px;
+      height: 150px;
+      overflow: hidden;
+    }
+    .carousel-container {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      width: 300%;
+    }
+    .carousel-item {
+      flex: 1;
+      width: 100%;
+      height: 100%;
+    }
+    .carousel-item h2 {
+      margin: 10px 0;
+    }
+    .carousel-item p {
+      margin: 0;
+    }
+    .carousel-buttons {
+      position: absolute;
+      width:10px; 
+      height: 10px; /* Размеры кнопки */
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 7px; /* Увеличен промежуток между кнопками */
+    }
+    .carousel-buttons button {
+      background: rgb(41, 192, 195);
+      border: none;
+      border-radius: 50%;
+      padding: 5px 5px;
+      /* font-size: 14px; */
+      cursor: pointer;
+      opacity: 0.7;
+      transition: opacity 0.3s ease;
+    }
+    .carousel-buttons button.active {
+      background: orange;
+      opacity: 1;
+    }
+    .carousel-buttons button:hover {
+      opacity: 1;
+    }
+
+    .products {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      flex-wrap: wrap;
+      
+    }
+    .product-card {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+      width: 200px;
+      text-align: left;
+      padding-left: 5px;
+      background: white;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .product-card:hover {
+      transform: scale(1.1);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+    .product-card img {
+      width: 100%;
+      height: auto;
+    }
+    .product-card a {
+      text-decoration: none;
+      color: black;
+      display: block;
+      padding: 10px 0;
+      font-weight: bold;
+    }
+
+  #carousel-title {
+    font-family: arial;
+    font-size: 40px;
+    color: rgb(231, 211, 211);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #carousel-text {
+    font-family: MyCustomFont1;
+    font-size: 20px;
+    color: rgb(231, 211, 211);
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+
+  .orange_line {
+    width: 15%;
+    height: 20px;
+    background: rgb(243, 169, 30);
+    margin-left: 5%;
+    margin-bottom: 30px;
+    
+  }
+
+  .partners {
+    margin-top: 5%;
+    margin-left: 5%;
+    color: white;
+    width: 900px;
+
+  }
+
+
+
+#type2 {
+  background: #66bb6a;
+  padding-bottom: 50px;
+}
+
+
+/* Buton 5 Bitti */
+
+.buttons_div {
+  
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.btn-6, .btn-7, .btn-8 {
+  
+margin: 20px;
+ 
+}
+
+.item {
+    flex: 1 1 200px; /* Элементы займут минимум 200px и смогут увеличиваться */
+    
+  }
+
+
+.btn-6 {
+  text-align: center;
+  display: inline-block;
+  padding: 15px 40px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position:relative;
+  overflow:hidden;
+  margin: 10px;
+}
+
+.btn-6:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0;
+  background : #fff;
+  left: 100%;
+  bottom: 0;
+  transition: all .3s;
+  opacity: 0.3;
+}
+
+.btn-6:hover:before {
+  width: 100%;
+  left:0;
+}
+
+/* Buton 6 Bitti */
+
+.btn-7 {
+  text-align: center;
+  display: inline-block;
+  padding: 15px 40px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position:relative;
+  overflow:hidden;
+  margin: 10px;
+}
+
+.btn-7:before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 100%;
+  background : #fff;
+  left: 0;
+  top: 0;
+  transition: all .3s;
+  opacity: 0.3;
+}
+
+.btn-7:hover:before {
+  height: 100%;
+}
+
+/* Buton 7 Bitti */
+
+.btn-8 {
+  text-align: center;
+  display: inline-block;
+  padding: 15px 40px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  letter-spacing: 2px;
+  position:relative;
+  overflow:hidden;
+  margin: 10px;
+}
+
+.btn-8:before {
+  content: "Кнопка";
+  position: absolute;
+  height: 0;
+  width: 100%;
+  background : #fff;
+  left: 0;
+  bottom: 0;
+  transition: all .3s;
+  opacity: 0.3;
+}
+
+.btn-8:hover:before {
+  height: 100%;
+}
+
+.texxt {
+  margin: 30px;
+  font-size: 20px;
+}
+
+#head {
+  font-size: 40px;
+  margin-left: 5%;
+}
+
+
