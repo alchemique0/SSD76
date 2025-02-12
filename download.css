@@ -3,7 +3,7 @@
   background-image: url('Main_Content/Nintendo_switch_logo.png');
   background-position: center;
   background-size: cover;
-  width: 63px;
+  width: 75px;
 height: 54.54px;
 margin: 4px;
 }
@@ -11,8 +11,8 @@ margin: 4px;
 .download_container  {
   margin: 20px;
   margin-top: 50px;
-width: 372px;
-height: 770px;
+width: 313px;
+height: 870px;
 background: linear-gradient(29.17deg, #0A1B23 37.61%, #077F64 97.65%);
 
 /* Fonts */
@@ -39,13 +39,16 @@ background: #C02E2E;
 
 .download_text {
   text-align: center;
-  padding: 20px;
+  /* font-weight: 900; */
+  margin-top: 15px;
+  padding: 0px;
+  margin-left: 10px;
   font-size: 20px;
 }
 
 
 .download_image {
-width: 325px;
+width: 300px;
 height: 196px;
 margin: 20px;
 background: url("Main_Content/The-Legend-of-Zelda-Tears-of-The-Kingdom-versao-fisica-Brasil.jpg") no-repeat center / cover;
@@ -56,7 +59,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 text-decoration: none;
-font-size: 20px;
+font-size: 17px;
 color: azure;
 
 width: 234px;

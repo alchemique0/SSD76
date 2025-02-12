@@ -2,7 +2,7 @@
     margin: 20px;
     margin-top: 50px;
     /* box-sizing: border-box; */
-    width: 497px;
+    width: 283px;
     /* height: 1021px; */
     /* border: 6px solid #000000; */
     font-family: 'MyCustomFont4' ;
@@ -10,9 +10,10 @@
 
     .price h1 {
 font-family: 'Press Start 2P';
+margin-left: 10px;
 font-style: normal;
 font-weight: 400;
-font-size: 24px;
+font-size: 15px;
 line-height: 24px;
 color: #EEA820;
 font-family: 'MyCustomFont4' ;
@@ -21,6 +22,7 @@ font-family: 'MyCustomFont4' ;
 
     .price p {
 font-family: 'jsMath-cmbx10';
+margin-left: 10px;
 font-style: normal;
 font-weight: 700;
 font-size: 10px;
@@ -31,8 +33,8 @@ font-family: 'MyCustomFont4' ;
     }
 
     .price_firmware {
-width: 350px;
-height: 451px;
+width: 283px;
+height: 361px;
 background: #095C64;
 border: 3px solid #000000;
 border-radius: 10px;
@@ -54,7 +56,7 @@ font-size: 30px;
 font-family: 'Press Start 2P';
 font-style: normal;
 font-weight: 400;
-font-size: 25px;
+font-size: 20px;
 line-height: 24px;
 letter-spacing: 0.05em;
 color: #000000;
@@ -62,17 +64,19 @@ font-family: 'MyCustomFont4' ;
 /* СТОИМОСТЬ */
     }
 
-
+    .Price_firmware_prices {
+        height: 300px;
+    }
 
     .Price_firmware_prices p {
-margin-top: 20px;
+margin-top: 10px;
 margin-left: 20px;
-width: 350px;
+width: 250px;
 height: 50px;
 font-family: 'MyCustomFont4';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 15px;
 line-height: 20px;
 color: #EEA820;
         /* NINTENDO SWITCH OLED 5000р */
