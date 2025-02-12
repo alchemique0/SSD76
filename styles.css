@@ -56,12 +56,41 @@ font-size: 48px;
 line-height: 76px;
 letter-spacing: 0.05em;
 color: #FFF8F8;
-/* padding: 0px;
-margin-top: 0px; */
-
 
 }
 
+
+    /* Стили для кнопки звонка */
+    .call-button {
+      display: inline-block;
+      padding: 15px 25px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+      background-color: #28a745; /* Зеленый цвет */
+      border-radius: 50px; /* Закругленные углы */
+      text-decoration: none;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  /* Стили при наведении на кнопку */
+  .call-button:hover {
+      background-color: #218838; /* Темно-зеленый цвет */
+      transform: scale(1.05); /* Увеличение кнопки */
+  }
+
+  /* Стили при нажатии на кнопку */
+  .call-button:active {
+      background-color: #1e7e34; /* Еще темнее зеленый */
+      transform: scale(0.95); /* Уменьшение кнопки */
+  }
+
+  /* Иконка телефона (опционально) */
+  .call-button::before {
+      content: "📞"; /* Иконка телефона */
+      margin-right: 10px;
+  }
 
   
 
