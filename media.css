@@ -1,3 +1,24 @@
+@media (max-width: 700px) {
+  header {
+    display:contents;
+  }
+
+  nav {
+    margin-right: 0%;
+    margin-left: 30%;
+    margin-top: 90px;
+  }
+
+  nav a {
+    
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    
+  }
+}
+
+
 @media (max-width: 550px) {
  
     .switch {
@@ -87,31 +108,31 @@
     }
 
  
+    .outer-shield {
+      height: 150px; /* Размер внешнего контейнера */
+      margin: 5px;
+    }
 
+    header {
+      display:contents;
+    }
 
-  .outer-shield {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px; /* Размер внешнего контейнера */
-    height: 150px; /* Размер внешнего контейнера */
-    background-color: #1d1c1c; /* Темно-серый цвет */
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 83%, 0 75%); /* Форма щита */
-    margin: 20px;
-    color: azure;
-    text-align: center;
-  }
+    nav {
+      margin-right: 0%;
+      margin-left: 20px;
+      margin-top: 90px;
+    }
+  
+    nav a {
+      
+      margin-left: 10px;
+      text-decoration: none;
+      color: white;
+      
+    }
 
-  /* Внутренний контейнер */
-  .inner-shield {
-    width: 55px; /* В два раза меньше внешнего */
-    height: 80px; /* В два раза меньше внешнего */
-    /* background-color: white;  */
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 90%, 0 75%); /* Форма щита */
-    transform: translateY(-65px); /* Поднимаем внутренний блок вверх */
-    background-image: url('Main_Content/Nintendo-Switch-Logo-Green.jpg');
-    background-position: center;
-    background-size: cover;
-  }
+    .call_to_us {
+      display: none;
+    }
 
 }
