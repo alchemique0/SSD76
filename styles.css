@@ -7,6 +7,71 @@ body {
     
   }
 
+  
+
+  /* SSSD */
+
+  /* body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    min-height: 300px;
+  } */
+
+  .sssd1 {
+    position: relative;
+    width: 200px;
+    height: 70px;
+    background-color: rgb(209, 32, 20);
+    margin-left: 15%;
+    text-align: center;
+    font-size: 30px;
+    font-family: "MyCustomFont4";
+  }
+
+
+  .sssd1:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 0;
+    border-top: 70px solid rgb(209, 32, 20);
+    border-left: 50px solid transparent;
+  }
+  .sssd1:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: -50px;
+    width: 0;
+    height: 0;
+    border-top: 70px solid rgb(209, 32, 20);
+    border-right: 50px solid transparent;
+  }
+
+  header a.sssd:hover {
+    margin-left: 15%;
+  /* width: 160px;
+  height: 76px; */
+  font-family: 'MyCustomFont3';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 76px;
+  letter-spacing: 0.05em;
+  
+  /* background: rgb(209, 32, 20); */
+    color: rgb(230, 229, 224);
+    font-weight: bold;
+  }
+
+
   .new_project {
     display: flex;
     flex-direction: row;
@@ -60,39 +125,6 @@ color: #FFF8F8;
 }
 
 
-    /* Стили для кнопки звонка */
-    .call-button {
-      display: inline-block;
-      padding: 15px 25px;
-      font-size: 18px;
-      font-weight: bold;
-      color: #fff;
-      background-color: #28a745; /* Зеленый цвет */
-      border-radius: 50px; /* Закругленные углы */
-      text-decoration: none;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-      transition: background-color 0.3s ease, transform 0.2s ease;
-  }
-
-  /* Стили при наведении на кнопку */
-  .call-button:hover {
-      background-color: #218838; /* Темно-зеленый цвет */
-      transform: scale(1.05); /* Увеличение кнопки */
-  }
-
-  /* Стили при нажатии на кнопку */
-  .call-button:active {
-      background-color: #1e7e34; /* Еще темнее зеленый */
-      transform: scale(0.95); /* Уменьшение кнопки */
-  }
-
-  /* Иконка телефона (опционально) */
-  .call-button::before {
-      content: "📞"; /* Иконка телефона */
-      margin-right: 10px;
-  }
-
-  
 
   footer {
     background: rgba(42, 157, 143, 0.3);

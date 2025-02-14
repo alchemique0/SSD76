@@ -1,0 +1,168 @@
+.container {
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+    justify-content: center; /* Центрирование по горизонтали */
+    position: relative; /* Для корректного наложения */
+  }
+  
+
+  .box1 {
+margin-left: 20px;
+margin-right: 20px;
+width: 40%;
+height: 900px;
+background: rgba(58, 51, 51, 0.62);
+z-index: 1; /* Нижний слой */
+  }
+  
+  .box2 {
+    width: 60%;
+    /* height: 700px; */
+    height: auto;
+    background-color: rgb(22, 22, 22); /* Полупрозрачный верхний слой */
+    position: relative; /* Для корректного наложения */
+    z-index: 2; /* Верхний слой */
+    margin-left: -50%; 
+    padding-bottom: 50px;
+  }
+
+  .box2_header {
+    background-color: rgba(204, 91, 38, 0.993);
+    height: 60px;
+  }
+
+  .box_inner_logo {
+    width: 70px;
+    height: 100px;
+    background-color:rgba(165, 81, 42, 0.616);
+    margin: 20px;
+    border-style: solid;
+    border-color: rgb(165, 81, 42);
+  }
+
+    .box2_inner {
+        display: flex;
+        flex-direction: row;
+  }
+
+  .box_inner_loginfo h1 {
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 800;
+  }
+
+  .box_inner_loginfo p {
+    color: rgba(240, 248, 255, 0.788);
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 20px;
+    margin-left: 20px;
+    }
+
+  .box2_inner_conteiners {
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+ 
+    margin-left: 20px;
+  }
+
+  .box2_inner_conteiners_one {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(165, 81, 42);
+    margin: 10px;
+    /* margin-left: 100px; */
+    color: azure;
+    text-align: center;
+    align-items: center;
+  }
+
+  .box2_inner_conteiners_twoo {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(165, 81, 42);
+    margin: 10px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-left: 150px;
+    color: azure;
+    align-items: center;
+  }
+
+  .box2_inner_conteiners_tree {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(165, 81, 42);
+    margin: 10px;
+    color: azure;
+    text-align: center;
+    align-items: center;
+  }
+
+  .box2_inner_conteiners_four {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(165, 81, 42);
+    margin: 10px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    color: azure;
+    
+  }
+
+
+  .box2_inner_conteiners2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+  }
+
+
+  .box2_inner_conteiners_five {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(165, 81, 42);
+    margin: 10px;
+  }
+
+  .box2_inner_conteiners_six {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(165, 81, 42);
+    margin: 10px;
+    margin-left: 150px;
+  }
+
+  .box2_inner_conteiners_seven {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(165, 81, 42);
+    margin: 10px;
+  }
+
+  .box2_inner_conteiners_eight {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(165, 81, 42);
+    margin: 10px;
+  }
+
+  .box2_inner_conteiners_four_logo {
+    background-image: url('Main_Content/Settings.png');
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+  }
+
+  .box2_inner_conteiners_twoo_logo {
+    background-image: url('Main_Content/Settings.png');
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+  }
