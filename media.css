@@ -136,16 +136,16 @@
     }
 
     .side-menu.active {
-      /* right: 0px;
-      left: 0px;  */
       top: 200px;
     }
 
     .side-menu {
-      /* right: 0px;
-      left: 0px;  */
-      top: 200px;
-      
+      top: 200px;  
     }
+
+    a#menuToggle {
+     z-index: 1000;
+     cursor: pointer;
+   }
 
 }
