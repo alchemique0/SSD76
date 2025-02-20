@@ -135,4 +135,10 @@
       display: none;
     }
 
+    .side-menu.active {
+      /* right: 0px;
+      left: 0px;  */
+      top: 200px;
+    }
+
 }
