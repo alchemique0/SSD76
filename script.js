@@ -1,23 +1,7 @@
-const slides = document.querySelectorAll('.slide');
-const prevButton = document.querySelector('.prev');
-const nextButton = document.querySelector('.next');
-let currentSlide = 0;
 
-function showSlide(index) {
-  slides.forEach((slide, i) => {
-    slide.classList.toggle('active', i === index);
-  });
-}
+// Для аккордеона
 
-prevButton.addEventListener('click', () => {
-  currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-  showSlide(currentSlide);
+document.getElementById('menuToggle').addEventListener('click', function() {
+  var sideMenu = document.querySelector('.side-menu');
+  sideMenu.classList.toggle('active');
 });
-
-nextButton.addEventListener('click', () => {
-  currentSlide = (currentSlide + 1) % slides.length;
-  showSlide(currentSlide);
-});
-
-// Инициализация
-showSlide(currentSlide);

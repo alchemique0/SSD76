@@ -230,6 +230,7 @@ border-radius: 5px;
    .call_to_us {
         
             position: fixed;
+           
             top: 70%;
             left: 72%;
             width: 90%;
@@ -239,14 +240,18 @@ border-radius: 5px;
     }
 
     .rounded-box {
+      font-family: 'MyCustomFont4';
       position: relative;
       width: 200px;
       height: 60px;
       background-color: #3498db;
       border-radius: 10px;
       color: aliceblue;
-      font-size: 20px;
+      font-size: 15px;
       text-align: center;
+      margin-top: 55px;
+      padding: 10px;
+      padding-top: 15px;
     }
 
     

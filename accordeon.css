@@ -1,0 +1,110 @@
+
+
+/* #menuToggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    cursor: pointer;
+  } */
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: -300px; /* Меню скрыто за пределами экрана */
+    width: 300px;
+    height: 100%;
+    background-color: #f4f4f4;
+    transition: left 0.3s ease;
+    z-index: 999;
+}
+
+.acor-container {
+    margin: 20px 0;
+    width: 300px;
+}
+.acor-container .acor-body {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    height: 0;
+    color: rgba(0, 0, 0, 0);
+    background-color: #BFE2FF;
+    line-height: 18px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    transition: color 0.5s, padding 0.5s;
+    overflow: hidden;
+    font-family: Verdana, sans-serif; 
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 10px 16px rgba(0,0,0,0.2);
+}
+.acor-container .acor-body p {
+    margin: 0 0 10px;
+}
+.acor-container label {
+    cursor: pointer;
+    background-color: #337AB7;
+    display: block;
+    padding: 15px 20px;
+    width: 100%;
+    color: #BFE2FF;
+    font-weight: 300;
+    box-sizing: border-box;
+    z-index: 100;
+    font-family: Verdana, sans-serif;   
+    font-size: 18px;
+    margin: 0 0 5px;
+    transition: color .35s;
+}
+.acor-container label:hover {
+    color: #FFF;
+}
+.acor-container input{
+    display: none;
+}
+.acor-container label:before {
+    content: '\276F';
+    float: right;
+}
+.acor-container input:checked + label {
+    background-color: #285f8f;
+    color: #FFF;
+    box-shadow: 0 8px 26px rgba(0,0,0,0.4), 0 28px 30px rgba(0,0,0,0.3);
+}
+.acor-container input:checked + label:before {
+    transition: transform .35s;
+    transform: rotate(90deg);
+}
+.acor-container input:checked + label + .acor-body {
+    height: auto;
+    margin-top: -5px;
+    color: #000;
+    padding: 20px 30px 10px;
+}
+
+#menuToggle {
+  /* position: fixed;
+  top: 20px;
+  left: 20px; */
+  z-index: 1000;
+  cursor: pointer;
+}
+
+/* Стили для side menu */
+.side-menu {
+  position: fixed;
+  top: 0;
+  /* right: -100%; */
+  width: 300px;
+  height: 100%;
+  background-color: #f4f4f4;
+  transition: left 0.3s ease;
+  z-index: 999;
+}
+
+.side-menu.active {
+    right: 0px;
+    left: 0px; 
+    /* height: 100vh; */
+  }
+

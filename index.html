@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="btn.css">
   <link rel="stylesheet" href="shield.css">
   <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="accordeon.css">
+  
 
   
 </head>
@@ -31,8 +33,9 @@
           height="40" alt="Пример"></a>
           <a href="tel:+79159957586"><img src="./Main_Content/Tele.png" width="40" 
             height="40" alt="Пример"></a>
-            <a href="tel:+79159957586"><img src="./Main_Content/telega.png" width="40" 
+            <a href="tel:+79159957586" id="menuToggle"><img src="Main_Content/Menu.png " width="40" 
               height="40" alt="Пример"></a>
+              <!-- <button id="menuToggle">Открыть меню</button> -->
 
       
     </nav>
@@ -64,6 +67,9 @@
               </div>
             </div>
        </div>
+
+
+
 
 
 <div class="midle">
@@ -127,6 +133,32 @@ onclick="window.location.href='nintendo.html';" class="outer-shield">
 </div>
 <!-- end midle -->
 
+       <!-- Аккордеон -->
+       <div class="side-menu">
+
+        <div class="acor-container">          
+            
+          <input type="checkbox" name="chacor" id="chacor1" checked="checked" />
+          <label for="chacor1">Заголовок вкладки</label>
+          <div class="acor-body">
+              <p>Описание вкладки</p>
+          </div>
+          
+          <input type="checkbox" name="chacor" id="chacor2" />
+          <label for="chacor2">Заголовок вкладки</label>
+          <div class="acor-body">
+              <p>Описание вкладки</p>
+          </div>
+          
+          <input type="checkbox" name="chacor" id="chacor3" />
+          <label for="chacor3">Заголовок вкладки</label>
+          <div class="acor-body">
+              <p>Описание вкладки</p>
+          </div>
+        
+        </div>
+        </div>
+
 
 
 <div class="price">
@@ -151,11 +183,15 @@ onclick="window.location.href='nintendo.html';" class="outer-shield">
 </div>
 </div>
 
+
 <div class="call_to_us">
   <div class="rounded-box" id="typingText"></div>
   <a href=""><img src="Main_Content/5262854622039634174.png" alt=""></a>
  
 </div>
+
+
+
 
 
   <section class="main-banner">
@@ -296,6 +332,6 @@ document.addEventListener ('DOMContentLoaded', () => {
   typeWriteEffect (TextToType, typeSpeed) ;
 });
   </script>
-
+<script src="script.js"></script>
 </body>
 </html>
