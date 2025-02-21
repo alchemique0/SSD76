@@ -20,6 +20,7 @@
     height: 0;
     color: rgba(0, 0, 0, 0);
     background-color: #BFE2FF;
+    
     line-height: 18px;
     padding: 0 30px;
     box-sizing: border-box;
@@ -84,16 +85,37 @@
   top: 10;
   width: 300px;
   height: 100%;
-  background-color: #f4f4f4;
+  background-color: #ffffff;
   transition: left 0.3s ease;
   z-index: 999;
   left: -300px; /* Меню скрыто за пределами экрана */
+  
+  /* background-image: url('./7b2c9935af-2_1390x600.jpg');
+  background-position: 10%; */
+  background-repeat: no-repeat;
+
+  /* border-width: 5px;
+  border-color: #000; */
+}
+
+.side-menu_image {
+    width: 270px;
+    height: 350px;
+     background-image: url('./Main_Content/TLoZ_BotW_boxart.png'); 
+    margin: 10px;
+    /* border-color: #000;
+    border-width: 5px; */
 
 }
 
 .side-menu.active {
     right: 0px;
     left: 0px; 
+
+
+    /* padding-top: 270px; */
+    
+    /* background-position:0% */
   }
 
 

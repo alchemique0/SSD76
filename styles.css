@@ -3,7 +3,7 @@ body {
     font-family: MyCustomFont, sans-serif;
     background: url('./Main_Content/background.jpg') no-repeat center center fixed;
     background-size: cover;
-    /* font-family: 'MyCustomFont', sans-serif;  */
+    font-family: 'MyCustomFont', sans-serif; 
     
   }
 
@@ -229,7 +229,7 @@ border-radius: 5px;
     }
 
     .rounded-box {
-      /* font-family: 'MyCustomFont4'; */
+      font-family: 'MyCustomFont4';
       position: relative;
       width: 200px;
       height: 60px;
