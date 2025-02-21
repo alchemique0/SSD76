@@ -264,8 +264,24 @@ onclick="window.location.href='nintendo.html';" class="outer-shield"><p>Осто
       <div class="foot4"><a href="https://vk.com/vanoo2005" target="_blank">Vkontakte</a></div>
     </div>
   </footer>
-
- 
+<script>  
+  // Виджет Пишем анимацию текста
+  const TextToType = "Привет, скоро тут будет промокод";
+  const typeSpeed = 70;
+  function typeWriteEffect(text, speed, index = 0) {
+  const typingElement = document.getElementById('typingText');
+  if (index < text.length) {
+  typingElement.innerHTML +=text.charAt (index);
+  
+  setTimeout (() => typeWriteEffect (text, speed, index + 1), 
+  speed)  ;
+  }
+  }
+  
+  document.addEventListener ('DOMContentLoaded', () => {
+  typeWriteEffect (TextToType, typeSpeed) ;
+  });
+</script>
 <script src="script.js"></script>
 </body>
 </html>
