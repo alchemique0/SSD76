@@ -3,7 +3,7 @@ body {
     font-family: MyCustomFont, sans-serif;
     background: url('./Main_Content/background.jpg') no-repeat center center fixed;
     background-size: cover;
-    font-family: 'MyCustomFont', sans-serif; /* Укажите имя шрифта, заданное в font-family */
+    /* font-family: 'MyCustomFont', sans-serif;  */
     
   }
 
