@@ -50,19 +50,3 @@ setSlide(currentIndex);
 
 
 
-// Виджет Пишем анимацию текста
-const TextToType = "Привет, скоро тут будет промокод";
-const typeSpeed = 70;
-function typeWriteEffect(text, speed, index = 0) {
-const typingElement = document.getElementById('typingText');
-if (index < text.length) {
-typingElement.innerHTML +=text.charAt (index);
-
-setTimeout (() => typeWriteEffect (text, speed, index + 1), 
-speed)  ;
-}
-}
-
-document.addEventListener ('DOMContentLoaded', () => {
-typeWriteEffect (TextToType, typeSpeed) ;
-});
