@@ -1,0 +1,125 @@
+
+
+
+/* Rectangle 346 */
+.frame1 {
+position: absolute;
+width: 1180px;
+/* height: 626px; */
+left: 351px;
+top: 118px;
+background: #0208089a;
+padding: 20px;
+}
+
+.frame1_green_bar {
+    /* Rectangle 349 */
+
+position: absolute;
+width: 254px;
+height: 35px;
+left: 842px;
+top: 394px;
+
+background: #03B07A;
+
+}
+
+.frame1_h1 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Rectangle 347 */
+.ps_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+width: 1080px;
+height: 126px;
+background: #01AE7B;
+margin-bottom: 60px;
+}
+
+/* Rectangle 348 */
+.ps_logo {
+
+width: 78px;
+height: 52px;
+background: #D9D9D9;
+/* margin-left: 30px; */
+}
+
+/* LOREM */
+#main_text {
+
+font-family: 'Passion One';
+font-style: normal;
+font-weight: 700;
+font-size: 84px;
+line-height: 92px;
+letter-spacing: 0.05em;
+color: #00AA79;
+}
+
+#main_text_white {
+    margin-left: 50px;
+    height: 92px;
+    font-family: 'Passion One';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 92px;
+    letter-spacing: 0.05em;
+    color: #dfdfdf;
+    }
+
+
+.second {
+    /* LOREM IPSUM LOREM IPSMU IPSUM LOR */
+font-family: 'Mukta';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+color: #E5ECEF;
+}
+
+#third {
+    
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+color: #E5ECEF;
+}
+
+
+#second {
+font-family: 'Mukta';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+color: #E5ECEF;
+margin-left: 40px;
+
+}
+
+.ps_yellow {
+    /* Rectangle 350 */
+
+
+width: 83px;
+height: 126px;
+background: #D99B1D;
+
+}
+
+.ps_violett {
+    /* Rectangle 351 */
+
+width: 41px;
+height: 126px;
+background: #366285;
+
+}
