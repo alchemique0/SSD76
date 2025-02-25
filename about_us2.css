@@ -4,22 +4,27 @@
 /* Rectangle 346 */
 .frame1 {
 position: absolute;
-width: 1180px;
+width: 800px;
 /* height: 626px; */
 left: 351px;
 top: 118px;
 background: #0208089a;
 padding: 20px;
+padding-left: 50px;
+}
+
+.frame0 {
+    width: 800px;
 }
 
 .frame1_green_bar {
     /* Rectangle 349 */
-
-position: absolute;
+margin-left: 300px;
+/* position: absolute; */
 width: 254px;
 height: 35px;
-left: 842px;
-top: 394px;
+/* left: 442px;
+top: 294px; */
 
 background: #03B07A;
 
@@ -28,17 +33,19 @@ background: #03B07A;
 .frame1_h1 {
     display: flex;
     flex-direction: row;
+    
 }
 
 
 /* Rectangle 347 */
 .ps_button {
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-width: 1080px;
-height: 126px;
+width: 700px;
+height: 70px;
 background: #01AE7B;
 margin-bottom: 60px;
 }
@@ -47,7 +54,7 @@ margin-bottom: 60px;
 .ps_logo {
 
 width: 78px;
-height: 52px;
+height: 50px;
 background: #D9D9D9;
 /* margin-left: 30px; */
 }
@@ -58,7 +65,7 @@ background: #D9D9D9;
 font-family: 'Passion One';
 font-style: normal;
 font-weight: 700;
-font-size: 84px;
+font-size: 44px;
 line-height: 92px;
 letter-spacing: 0.05em;
 color: #00AA79;
@@ -70,7 +77,7 @@ color: #00AA79;
     font-family: 'Passion One';
     font-style: normal;
     font-weight: 700;
-    font-size: 84px;
+    font-size: 44px;
     line-height: 92px;
     letter-spacing: 0.05em;
     color: #dfdfdf;
@@ -82,15 +89,15 @@ color: #00AA79;
 font-family: 'Mukta';
 font-style: normal;
 font-weight: 500;
-font-size: 32px;
+font-size: 16px;
 color: #E5ECEF;
 }
 
 #third {
-    
+    font-family: 'Mukta';
 font-style: normal;
 font-weight: 500;
-font-size: 32px;
+font-size: 16px;
 color: #E5ECEF;
 }
 
@@ -109,8 +116,8 @@ margin-left: 40px;
     /* Rectangle 350 */
 
 
-width: 83px;
-height: 126px;
+width: 70px;
+height: 70px;
 background: #D99B1D;
 
 }
@@ -119,7 +126,50 @@ background: #D99B1D;
     /* Rectangle 351 */
 
 width: 41px;
-height: 126px;
+height: 70px;
 background: #366285;
 
+}
+
+.ps_text {
+    width: 546px;
+    font-size: 18px ;
+    color: #dfdfdf;
+
+    /* Обо мне С детства меня увлекает мир видеоигр, и я знаю, как важно иметь доступ к качественному контенту. Именно поэтому я решил поделиться с вами возможностью наслаждаться играми на приставке Nintendo Switch без ограничений. Что я предлагаю ? Я предоставляю уникальную услугу: вы можете установить любую игру на свою Nintendo Switch, даже если её стоимость достигает 10 000 рублей, абсолютно бесплатно. Для этого требуется установка специального чипа, который открывает доступ к огромной библиотеке игр. Почему я этим занимаюсь? Я верю, что игры — это не просто развлечение, а целый мир, который должен быть доступен каждому. Мой опыт и стремление к совершенству помогают мне делать этот мир ближе для вас. Давайте играть вместе! Если вы разделяете мою любовь к играм и хотите получить доступ к безграничным возможностям Nintendo Switch, я готов помочь. Давайте сделаем ваш игровой опыт ещё ярче и увлекательнее! */
+
+
+
+/* font-family: 'Mukta'; */
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+color: #E5ECEF;
+
+
+}
+
+.ps_text span {
+    /* Обо мне С детства меня увлекает мир видеоигр, и я знаю, как важно иметь доступ к качественному контенту. Именно поэтому я решил поделиться с вами возможностью наслаждаться играми на приставке Nintendo Switch без ограничений. Что я предлагаю ? Я предоставляю уникальную услугу: вы можете установить любую игру на свою Nintendo Switch, даже если её стоимость достигает 10 000 рублей, абсолютно бесплатно. Для этого требуется установка специального чипа, который открывает доступ к огромной библиотеке игр. Почему я этим занимаюсь? Я верю, что игры — это не просто развлечение, а целый мир, который должен быть доступен каждому. Мой опыт и стремление к совершенству помогают мне делать этот мир ближе для вас. Давайте играть вместе! Если вы разделяете мою любовь к играм и хотите получить доступ к безграничным возможностям Nintendo Switch, я готов помочь. Давайте сделаем ваш игровой опыт ещё ярче и увлекательнее! */
+
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+/* or 117% */
+letter-spacing: 0.06em;
+
+color: #E5ECEF;
+
+
+}
+
+.green {
+    background-color: #00AA79;
+    margin-left: 40px;
+    padding: 20px;
+    padding-top: 0px;
 }
