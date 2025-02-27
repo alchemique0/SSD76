@@ -16,10 +16,15 @@
     color: white;
     
   }
+
+ 
+
 }
 
 
 @media (max-width: 550px) {
+
+
  
     .switch {
         font-size: 70px;
@@ -113,6 +118,13 @@
       margin: 5px;
     }
 
+    .inner-shield {
+      width: 165px; /* В два раза меньше внешнего */
+      height: 160px; /* В два раза меньше внешнего */
+      margin-top: -50px;
+      z-index: 0;
+    }
+
     header {
       display:contents;
     }
@@ -148,4 +160,13 @@
      cursor: pointer;
    }
 
+}
+
+@media (max-width: 1000px) {
+  .frame1 {
+    position:relative;
+    width: 100%;
+    left: 0px;
+
+    }
 }

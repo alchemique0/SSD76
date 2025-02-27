@@ -101,6 +101,15 @@ font-size: 16px;
 color: #E5ECEF;
 }
 
+#third a {
+    font-family: 'Mukta';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #68caf5;
+text-decoration: none;
+}
+
 
 #second {
 font-family: 'Mukta';
