@@ -1,0 +1,83 @@
+.price {
+    margin: 20px;
+    margin-top: 50px;
+    width: 283px;
+    font-family: 'MyCustomFont4' ;
+    }
+
+    .price h1 {
+font-family: 'Press Start 2P';
+margin-left: 10px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #EEA820;
+font-family: 'MyCustomFont4' ;
+/* Прошивка вашей приставки */
+    }
+
+    .price p {
+font-family: 'jsMath-cmbx10';
+margin-left: 10px;
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 16px;
+color: #395C5D;
+font-family: 'MyCustomFont4' ;
+/* Цены актуальны... */
+    }
+
+    .price_firmware {
+width: 283px;
+height: 361px;
+background: #095C64;
+border: 3px solid #000000;
+border-radius: 10px;
+font-family: 'MyCustomFont4' ;
+    }
+
+    .price_firmware_baner {
+width: 100%;
+height: 52px;
+background: #FFC502;
+text-align: center;
+font-family: 'MyCustomFont4' ;
+font-size: 30px;
+    }
+
+    .price_firmware_baner p {
+      padding-top: 5px;
+      margin-left: 18px;
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.05em;
+color: #000000;
+font-family: 'MyCustomFont4' ;
+/* СТОИМОСТЬ */
+    }
+
+    .Price_firmware_prices {
+        height: 300px;
+    }
+
+    .Price_firmware_prices p {
+margin-top: 10px;
+margin-left: 20px;
+width: 250px;
+height: 50px;
+font-family: 'MyCustomFont4';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+color: #EEA820;
+        /* NINTENDO SWITCH OLED 5000р */
+
+    }
+
+ 

@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>SSD76</title>
+  <style>
+   
+
+   .highlighted-text {
+  background-color: yellow;
+  font-size: 58px;
+}
+
+  .container {
+    width: 300px;
+    height: 100px;
+  }
+
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="sssd">SSD76</a>
+    <nav>
+      <a href="About.html">О НАС</a>
+      <a href="News.html">НОВОСТИ</a>
+      <a href="contacts.html">КОНТАКТЫ</a>
+    </nav>
+  </header>
+
+
+  <div class="container">
+  <span class="highlighted-text">Белобородов Иван Сергеевич
+  Номер телефона 89159957586
+  СМС, ТГ, Watsup, Viber</span>
+  </Div>
+
+  <footer>
+    <a href="https://vk.com/vanoo2005" target="_blank">Vk</a>
+    <a href="https://www.avito.ru/user/6f8e50f318dacf6495154f26e18b1b7c/profile?src=sharing" target="_blank">Avito</a>
+    <a href="https://www.youtube.com/watch?v=GJEp6VzdHKw&list=PLsgJtVLkqLreTgeIhwJ1MYvcEKhTHxN0u" target="_blank">Youtube</a>
+  </footer>
+
+  <script>
+   const slides = [
+  {
+    title: "Текст 1",
+    text: "Это первый текст карусели.",
+  },
+  {
+    title: "Текст 2",
+    text: "Это второй текст карусели.",
+  },
+  {
+    title: "Текст 3",
+    text: "Это третий текст карусели.",
+  },
+];
+
+let currentIndex = 0;
+
+function setSlide(index) {
+  const titleElement = document.getElementById("carousel-title");
+  const textElement = document.getElementById("carousel-text");
+  const buttons = document.querySelectorAll(".carousel-buttons button");
+
+  // Меняем текст
+  titleElement.textContent = slides[index].title;
+  textElement.textContent = slides[index].text;
+
+  // Обновляем активную кнопку
+  buttons.forEach((button, i) => {
+    button.classList.toggle("active", i === index);
+  });
+
+  currentIndex = index;
+}
+
+// Автоматическая прокрутка (по желанию)
+setInterval(() => {
+  currentIndex = (currentIndex + 1) % slides.length;
+  setSlide(currentIndex);
+}, 5000);
+  </script>
+</body>
+</html>

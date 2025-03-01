@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    font-family: MyCustomFont, sans-serif;
+    background: url('./Main_Content/background.webp') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'MyCustomFont', sans-serif; 
+    
+  }
+
+  
+  header {
+    background: #5C1010;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .sssd1 {
+margin-left: 20%; 
+width: 30px;
+height: 20px;
+/* background-color: rgb(209, 32, 20); */
+  }
+
+
+
+  .sssd1 a {
+    position: relative;
+    text-decoration: none;
+    color: rgb(231, 211, 211);
+    /* width: 200px;
+    height: 70px; */
+    background-color: #921e1e;
+    
+    /* text-align: center; */
+    font-size: 48px;
+    font-family: "MyCustomFont3";
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+
+  }
+  .sssd1 a:hover {
+    margin-left: 20%;
+  font-family: 'MyCustomFont3';
+  /* font-size: 48px; */
+  /* line-height: 90px;
+  letter-spacing: 0.00em; */
+  color: rgb(231, 211, 211);
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight:500;
+  }
+
+
+  .new_project {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
+
+  nav {
+    margin-right: 12%;
+    margin-left: 20%;
+    display: flex;
+  }
+
+  nav a {
+    /* position: relative; */
+    margin: 0 10px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+  }
+
+  nav a p{
+margin-top: 0px;
+padding-top: 10px;
+  }
+
+
+
+  footer {
+    background: rgba(42, 157, 143, 0.3);
+    
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-bottom: 90px;
+  }
+  footer a {
+  margin: 0 15px;
+  margin-bottom: 90px;
+  text-decoration: none;
+  color: rgb(175, 232, 225);
+}
+
+footer a:hover {
+  margin: 0 15px;
+  text-decoration: none;
+  color: rgb(241, 205, 60);
+}
+
+
+
+.prefooter {
+  display: flex;
+  flex-direction: row;
+}
+
+@font-face {
+  font-family: 'MyCustomFont'; /* Имя шрифта, которое вы будете использовать */
+  src: url('./Fonts/Inter-Thin.otf') format('opentype'); /* Путь к файлу шрифта */
+  font-weight: normal; /* Опционально: можно указать вес */
+  font-style: normal; /* Опционально: можно указать стиль (например, italic) */
+}
+
+@font-face {
+  font-family: 'MyCustomFont1'; /* Имя шрифта, которое вы будете использовать */
+  src: url('./Fonts/Montserrat-Regular.ttf') format('opentype'); /* Путь к файлу шрифта */
+  font-weight: normal; /* Опционально: можно указать вес */
+  font-style: normal; /* Опционально: можно указать стиль (например, italic) */
+}
+
+@font-face {
+  font-family: 'MyCustomFont3'; /* Имя шрифта, которое вы будете использовать */
+  src: url('./Fonts/MuseoModerno-Medium.ttf') format('opentype'); /* Путь к файлу шрифта */
+  font-weight: normal; /* Опционально: можно указать вес */
+  font-style: normal; /* Опционально: можно указать стиль (например, italic) */
+}
+
+@font-face {
+  font-family: 'MyCustomFont4'; /* Имя шрифта, которое вы будете использовать */
+  src: url('./Fonts/PressStart2P-Regular.ttf') format('opentype'); /* Путь к файлу шрифта */
+  font-weight: normal; /* Опционально: можно указать вес */
+  font-style: normal; /* Опционально: можно указать стиль (например, italic) */
+}
+
+@font-face {
+  font-family: 'Nintendo'; /* Имя шрифта, которое вы будете использовать */
+  src: url('./Fonts/Nintendo_Switch_UI_Font.ttf') format('opentype'); /* Путь к файлу шрифта */
+  font-weight: normal; /* Опционально: можно указать вес */
+  font-style: normal; /* Опционально: можно указать стиль (например, italic) */
+}
+
+
+#type2 {
+background: #66bb6a;
+padding-bottom: 50px;
+}
+
+.prefooter {
+  display: flex;
+  flex-direction: row;
+}
+
+ .footer {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 20px;
+margin-top: 50px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #e0c5c5;
+}
+
+    .foot1 { 
+text-align: center;
+margin: 20px;
+width: 122px;
+height: 40px;
+background: rgb(211, 57, 60);
+border: 3px solid #373030;
+border-radius: 5px;
+    }
+
+    .foot2 {
+text-align: center;
+margin: 20px;
+width: 155px;
+height: 40px;
+background: rgb(0, 120, 104);
+border: 3px solid #373030;
+border-radius: 5px;
+    }
+
+    .foot3 {
+text-align: center;
+margin: 20px;
+width: 148px;
+height: 40px;
+background: rgb(0, 120, 104);
+border: 3px solid #373030;
+border-radius: 5px;
+/* color: #060101; */
+
+    }
+
+    .foot4 {
+text-align: center;
+margin: 20px;
+width: 141px;
+height: 40px;
+background: rgb(75, 156, 232);
+border: 3px solid #373030;
+border-radius: 5px;
+    }
+
+   .call_to_us {
+        
+            position: fixed;
+           
+            top: 70%;
+            left: 72%;
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+          
+    }
+
+    .rounded-box {
+      font-family: 'MyCustomFont4';
+      position: relative;
+      width: 200px;
+      height: 60px;
+      background-color: #3498db;
+      border-radius: 10px;
+      color: aliceblue;
+      font-size: 15px;
+      text-align: center;
+      margin-top: 55px;
+      padding: 10px;
+      padding-top: 15px;
+    }
+
+    
+    .rounded-box::after {
+      content: '';
+      position: absolute;
+      right: -20px; /* Смещаем треугольник вправо */
+      top: 50%;
+      transform: translateY(-50%); /* Центрируем по вертикали */
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent; /* Верхняя часть треугольника */
+      border-bottom: 10px solid transparent; /* Нижняя часть треугольника */
+      border-left: 20px solid #3498db; /* Треугольник, смотрящий вправо */
+    }
+
+    
