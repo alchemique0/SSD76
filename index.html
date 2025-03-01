@@ -12,8 +12,9 @@
   <link rel="stylesheet" href="price.css">
   <link rel="stylesheet" href="btn.css">
   <link rel="stylesheet" href="shield.css">
-  <link rel="stylesheet" href="media.css">
+  
   <link rel="stylesheet" href="accordeon.css">
+  <link rel="stylesheet" href="media.css">
   
 
   
@@ -208,19 +209,20 @@ onclick="window.location.href='nintendo.html';" class="outer-shield">
     
     <div class="product-card">
       <a href="nintendo.html">
-        <img src="./Main_Content/switch.jpg" alt="Switch">
+        <img src="./Nintendo_content/switch.jpg" style="width: 250%; "  alt="Switch">
         <p>Инструкции <br> Retroarch</p>
       </a>
     </div>
     <div class="product-card">
       <a href="SSD76.html">
-        <img src="./Main_Content/ssd.jpg" alt="SSD">
+        <img src="./Main_Content/sssd.jpg" alt="SSD">
         <p>SSD128Gb <br> SSD256Gb</p>
       </a>
     </div>
     <div class="product-card">
       <a href="./engrave.html">
-        <img src="./Main_Content/lorem.jpg" alt="Lorem">
+        <!-- <img src="./Engraving_content/cf323153795ef5422f75834bd1lk--suveniry-i-podarki-derevyannaya-fleshka-s-gravirovkoj-na-32-g.jpg" alt="Lorem"> -->
+        <img src="./Engraving_content/05b50e47669904de3d9458e54d12aba9.jpg" style="width: 450px;" alt="Lorem">
         <p>Лазерная гравировка</p>
       </a>
     </div>
@@ -266,7 +268,7 @@ onclick="window.location.href='nintendo.html';" class="outer-shield">
       onclick="window.location.href='https://t.me/vanoo2005';" class="foot1"><a>Youtube</a></div>
       <div class="foot2"><a href="https://t.me/vanoo2005" target="_blank">Telegram</a></div>
       <div class="foot3"><a href="https://www.avito.ru/user/b890dd3f7cea74a9bd305e1ee4990cc4/profile?src=sharing" target="_blank">Avito</a></div>
-      <div class="foot4"><a href="https://vk.com/vanoo2005" target="_blank">Vkontakte</a></div>
+      <div class="foot4"><a href="https://vk.com/ssd76" target="_blank">Vkontakte</a></div>
     </div>
   </footer>
 <script>  
@@ -288,5 +290,31 @@ onclick="window.location.href='nintendo.html';" class="outer-shield">
   });
 </script>
 <script src="script.js"></script>
+
+<!-- Код необходимый для подключения Firebase -->
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAb4UzkLB9RqKcO1GQgLqrIQ3WOcZJSX2I",
+    authDomain: "switch-76.firebaseapp.com",
+    projectId: "switch-76",
+    storageBucket: "switch-76.firebasestorage.app",
+    messagingSenderId: "438755640310",
+    appId: "1:438755640310:web:2adbe8e90ae7bc81fa7dd7",
+    measurementId: "G-W1DFX5H410"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
 </body>
 </html>
