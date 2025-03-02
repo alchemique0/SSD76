@@ -1,0 +1,143 @@
+
+    main {
+      text-align: center;
+      padding: 20px;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  
+    .main-banner {
+      position: relative;
+      text-align: center;
+      padding: 50px;
+      background: rgba(159, 156, 10, 0.8);
+      color: rgb(21, 14, 14);
+      margin: 20px;
+      border-radius: 10px;
+      height: 200px;
+      overflow: hidden;
+    }
+    
+    .image-container img {
+      max-width: 50%; /* Уменьшено в 2 раза */
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .button-container {
+      margin-top: 20px;
+    }
+    
+    .button-container button {
+      display: block;
+      width: 90%; /* Увеличено в 2 раза */
+      max-width: 600px;
+      margin: 10px auto;
+      padding: 15px 20px; /* Увеличен padding для более крупных кнопок */
+      font-size: 18px; /* Сделан чуть крупнее */
+      border: none;
+      border-radius: 5px;
+      background: white;
+      color: black;
+      cursor: pointer;
+      /* transition: background 0.3s ease; */
+    }
+    
+    .button-container button:hover {
+      background: orange;
+      color: white;
+    }
+    
+  
+  
+  /* //аккордеон */
+    
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+  
+      .accordion__item {
+        margin-bottom: 0.7rem;
+        border-radius: 0.25rem;
+        box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 15%);
+      }
+  
+      .accordion__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.75rem 1rem;
+        color: #110c0c;
+        font-weight: 500;
+        background-color: #f9f9f9;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+        cursor: pointer;
+        transition: background-color 0.2s ease-out;
+      }
+  
+      .accordion__header::after {
+        flex-shrink: 0;
+        width: 1.25rem;
+        height: 1.25rem;
+        margin-left: auto;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-size: 1.25rem;
+        content: "";
+        transition: transform 0.2s ease-out;
+      }
+  
+      .accordion__item_show .accordion__header::after,
+      .accordion__item_slidedown .accordion__header::after {
+        transform: rotate(-180deg);
+      }
+  
+      .accordion__header:hover {
+        background-color: #ffca2a;
+      }
+  
+      .accordion__item:not(.accordion__item_show) .accordion__header {
+        border-bottom-right-radius: 0.25rem;
+        border-bottom-left-radius: 0.25rem;
+      }
+  
+      .accordion__content {
+        padding: 0.75rem 1rem;
+        background: #fff;
+        border-bottom-right-radius: 0.25rem;
+        border-bottom-left-radius: 0.25rem;
+      }
+  
+      .accordion__item:not(.accordion__item_show) .accordion__body {
+        display: none;
+      }
+  
+      footer {
+        background: rgba(42, 157, 143, 0.3);
+        padding: 10px;
+        color: white;
+        text-align: center;
+      }
+      footer a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: rgb(175, 232, 225);
+    }
+  
+    footer a:hover {
+      margin: 0 15px;
+      text-decoration: none;
+      color: rgb(241, 205, 60);
+    }
+  
+    .links {
+      font-size: 30px;
+      text-decoration: none;
+      color: #f9f9f9;
+      margin-left: 30px;
+    }
+  
+  
