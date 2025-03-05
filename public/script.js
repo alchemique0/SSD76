@@ -1,4 +1,14 @@
 
+// Функция для открытия модального окна
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+// Функция для закрытия модального окна
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
 // Для аккордеона
 
 document.getElementById('menuToggle').addEventListener('click', function() {
