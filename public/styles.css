@@ -1,3 +1,61 @@
+/* Стиль для модального окна */
+.modal {
+  display: none; /* Модальное окно скрыто по умолчанию */
+  position: fixed;
+  z-index: 1; /* Помещаем модальное окно поверх контента */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Темный полупрозрачный фон */
+  overflow: auto;
+}
+
+/* Контент модального окна */
+.modal-content {
+  background: linear-gradient(135deg, #006400, #000080); /* Темно-зеленый с градиентом в темно-синий */
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Кнопка для закрытия модального окна */
+.close {
+  color: white;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #f1f1f1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Кнопка для открытия модального окна */
+/* .outer-shield {
+  background-color: #28a745;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+} */
+
+/* .outer-shield .inner-shield {
+  font-weight: bold;
+}
+
+.outer-shield p {
+  margin: 0;
+} */
+
 body {
     margin: 0;
     font-family: MyCustomFont, sans-serif;
@@ -7,6 +65,7 @@ body {
     
   }
 
+  
   
   header {
     background: #5C1010;
@@ -258,3 +317,114 @@ border-radius: 5px;
     }
 
     
+/* Линии длля main */
+
+.Group_38 {
+position: absolute;
+z-index: -1;
+margin-top: 40px;
+}
+
+.Group_39 {
+margin-bottom: 35px;
+display: flex;
+flex-direction: row;
+  }
+
+  .Group_44 {
+    margin-bottom: 15px;
+display: flex;
+flex-direction: row;
+  }
+
+  .Group_40 {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+      }
+
+      .Group_41 {
+        margin-bottom: 35px;
+        display: flex;
+        flex-direction: row;
+          }
+
+.Rectangle_36 {
+
+  width: 60.9px;
+  height: 25.56px;
+  background: #F3B60B;
+  border-radius: 5px;
+  }
+
+.Rectangle_28 {
+
+margin-left: 15px;
+width: 233.45px;
+height: 25.56px;
+background: #614BE8;
+border-radius: 5px;
+}
+
+
+
+.Rectangle_30 {
+
+
+width: 180.67px;
+height: 25.56px;
+
+background: #007868;
+border-radius: 5px;
+}
+
+.Rectangle_31 {
+
+
+width: 164.43px;
+height: 25.56px;
+
+background: #4B9DE8;
+border-radius: 5px;
+}
+
+.Rectangle_32 {
+  margin-left: 15px;
+width: 192.85px;
+height: 25.56px;
+background: #4B9DE8;
+border-radius: 5px;
+}
+
+.Rectangle_33 {
+margin-left: 15px;
+width: 456.75px;
+height: 25.56px;
+background: #EB3436;
+border-radius: 5px;
+}
+
+.Rectangle_34 {
+  margin-left: 15px;
+width: 142.1px;
+height: 25.56px;
+background: #4B9DE8;
+border-radius: 5px;
+}
+
+.Rectangle_29 {
+  margin-left: 15px;
+  width: 233.45px;
+  height: 25.56px;
+  background: #007868;
+  border-radius: 5px;
+  }
+
+.Rectangle_35 {
+
+width: 60.9px;
+height: 25.56px;
+background: #E7BE2C;
+border-radius: 5px;
+}
+

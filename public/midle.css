@@ -1,7 +1,7 @@
 .midle {
     margin-left: 20px;
     margin-right: 20px;
-
+position: relative;
 width: 700px;
 /* height: 1143px; */
 background: rgba(58, 51, 51, 0.62);
@@ -86,7 +86,7 @@ font-family: 'Nintendo';
 font-style: normal;
 font-weight: 800;
 font-size: 25px;
-line-height: 57px;
+line-height: 30px;
 letter-spacing: 0.05em;
 color: #EB3436;
 }
@@ -188,21 +188,24 @@ margin-left: 30px;
 
 .review1 {
 width: 200px;
-height: 130px;
+height: 100px;
 border: 1px solid #D0A4A4;
 margin-left: 20px;
 color: azure;
+padding: 15px;
 }
 
 .review2 {  
 width: 300px;
-height: 130px;
+height: 100px;
 border: 1px solid #D0A4A4;
 margin-left: 20px;
 color: azure;
+padding: 15px;
 }
 
    .midle_outer {
+    position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
