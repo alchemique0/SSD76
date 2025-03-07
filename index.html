@@ -34,14 +34,14 @@
 <!-- Модальное окно -->
 <div id="myModal" class="modal">
   <div class="modal-content">
-    <span class="close" onclick="closeModal()">&times;</span>
+    <span class="close" style="cursor: pointer;" onclick="closeModal()">&times;</span>
     <h1> Запрещается:</h1>
     <h2>1. Вынимать карту памяти из приставки если она включена</h2>
     <p>Приставка долгое время не будет включатся</p>
     <h2>2. Играть онлайн без "Эмунанда". Играть онлайн в "Семистоке" с читами</h2>
     <p>За это можно получить бан</p>
     <h2>3. Механические повреждения</h2>
-    <p>Не стоит</p>
+    <p>Не стоит ронять приставку и пытаться достать джойстики ненажав при этом кнопку-защелку</p>
     <h2>4. Сильно разгонять приставку</h2>
     <p>Возможен сильный износ комплектующих</p>
   </div>
@@ -159,7 +159,7 @@ onclick="window.location.href='./public/nintendo.html';" class="outer-shield">
   <p>DBI меню <br>Установка игр <br> Retroarch</p>
 </div>
 <div style="cursor: pointer;"
-onclick="window.location.href='./public/nintendo.html';" class="outer-shield">
+onclick="window.location.href='./public/nintendo2.html';" class="outer-shield">
   <div class="inner-shield"> 2. &#128993; </div>
   <p>Играть ли онлайн ?</p>
 </div>
@@ -239,91 +239,93 @@ onclick="window.location.href='./public/nintendo.html';" class="outer-shield">
 </div>
 
 
+ 
 
+       <div class="projects">
+     
+         <div class="projects_carusel">
+          <h1>ДРУГИЕ МОИ ПРОЕКТЫ:</h1>
+          <section class="main-banner">
+             <div class="carousel">
+               <p id="carousel-title">Nintendo Switch Oled </p>
+               <p id="carousel-text">Современные приставки Nintendo Switch: Oled, Lite, Rev1, Rev2</p>
 
+               <div class="carousel-buttons">
+                 <button onclick="setSlide(0)" class="active"></button>
+                 <button onclick="setSlide(1)" ></button>
+                 <button onclick="setSlide(2)"></button>
+               </div>
+             </div>
+           </section>
 
-  <section class="main-banner">
-    <div class="carousel">
-        <p id="carousel-title">Nintendo Switch Oled </p>
-        <p id="carousel-text">Современные приставки Nintendo Switch: Oled, Lite, Rev1, Rev2</p>
-        <div class="carousel-buttons">
-          <button onclick="setSlide(0)" class="active"></button>
-          <button onclick="setSlide(1)" ></button>
-          <button onclick="setSlide(2)"></button>
-        </div>
-      </div>
+         <div class="projects_products">
+         <!-- <div class="product-card">
+           <a href="./public/nintendo.html">
+            <img src="./temp/sw.jpg" style="width: 150%; "  alt="Switch">
+            <p>Инструкции <br> Retroarch</p>
+           </a>
+         </div> -->
 
+         <div class="product-card">
+          <a href="./public/SSD76.html">
+            <img src="./temp/ssd.jpg " style="width: 150%;" alt="SSD">
+            <p>SSD128Gb <br> SSD256Gb</p>
+          </a>
+         </div>
 
-  </section>
+           <div class="product-card">
+          <a href="./public//engrave.html">
+               <!-- <img src="./Engraving_content/cf323153795ef5422f75834bd1lk--suveniry-i-podarki-derevyannaya-fleshka-s-gravirovkoj-na-32-g.jpg" alt="Lorem"> -->
+               <img src="./temp/gr.jpg" style="width: 150%;" alt="Lorem">
+               <p>Лазерная гравировка</p>
+              </a>
+                  </div>
+               
+                 </div>
+                 </div>
+          
 
-  <section class="products">
-    Другие мои проекты
+                 <div class="partners">
+                  <h1 id="head">ПАРТНЕРЫ:</h1>
+                  <div class="texxt">
+                    Люди с которыми я работаю и которых готов порекомендовать (со скидкой 10%) Промокод: "ИВАН"<br>
+                  </div>  
+                  <div class="buttons_div">
+                 <div class="btn-6">
+                  <a href="https://t.me/Oxygen_sama">РЕМОНТ ТЕЛЕФОНОВ</a>
+                 </div>
+                
+                  <div class="btn-7">
+                Чистка приставки PS4 PS5 Nintendo Switch
+              </div>
+                
+                   <div class="btn-8">
+                РЕМОНТ ПРИСТАВКИ ПС4 и ПС5
+              </div>
+              </div>
+              </div>
     
-    <div class="product-card">
-      <a href="./public/nintendo.html">
-        <img src="./temp/sw.jpg" style="width: 150%; "  alt="Switch">
-        <p>Инструкции <br> Retroarch</p>
-      </a>
-    </div>
-    <div class="product-card">
-      <a href="./public/SSD76.html">
-        <img src="./temp/ssd.jpg " style="width: 150%;" alt="SSD">
-        <p>SSD128Gb <br> SSD256Gb</p>
-      </a>
-    </div>
-    <div class="product-card">
-      <a href="./public//engrave.html">
-        <!-- <img src="./Engraving_content/cf323153795ef5422f75834bd1lk--suveniry-i-podarki-derevyannaya-fleshka-s-gravirovkoj-na-32-g.jpg" alt="Lorem"> -->
-        <img src="./temp/gr.jpg" style="width: 150%;" alt="Lorem">
-        <p>Лазерная гравировка</p>
-      </a>
     </div>
 
-    <div class="partners">
-      <h1 id="head">ПАРТНЕРЫ:</h1>
-      <div class="texxt">
-        Люди с которыми я работаю и которых готов порекомендовать (со скидкой 10%) Промокод: "ИВАН"<br>
-        
-      </div>  
+   </div>
 
-  <div class="buttons_div">
-
-    
-    <div class="btn-6">
-      <a href="https://t.me/Oxygen_sama">РЕМОНТ ТЕЛЕФОНОВ</a>
-    </div>
-    
-      <div class="btn-7">
-    Чистка приставки PS4 PS5 Nintendo Switch
+   <div class="prefooter">
+    <div class="orange_line"></div>
+    <div class="orange_line"></div>
+    <div class="orange_line"></div>
   </div>
-    
-       <div class="btn-8">
-    РЕМОНТ ПРИСТАВКИ ПС4 и ПС5
-  </div>
-      </div>
 
-  </div>
-
-  
-  </section>
-
-<div class="prefooter">
-  <div class="orange_line"></div>
-  <div class="orange_line"></div>
-  <div class="orange_line"></div>
-</div>
-
-
-  <footer>
+   <footer>
        <div class="footer">
       <div style="cursor: pointer;"
       onclick="window.location.href='https://t.me/vanoo2005';" class="foot1"><a>Youtube</a></div>
       <div class="foot2"><a href="https://t.me/vanoo2005" target="_blank">Telegram</a></div>
       <div class="foot3"><a href="https://www.avito.ru/user/b890dd3f7cea74a9bd305e1ee4990cc4/profile?src=sharing" target="_blank">Avito</a></div>
       <div class="foot4"><a href="https://vk.com/ssd76" target="_blank">Vkontakte</a></div>
-    </div>
+      </div>
   </footer>
-<script>  
+  <script>  
+
   // Виджет Пишем анимацию текста
   const TextToType = "Промокод 'Иван' дает скидку 10%";
   const typeSpeed = 70;
