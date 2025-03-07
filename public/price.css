@@ -3,6 +3,8 @@
     margin-top: 50px;
     width: 283px;
     font-family: 'MyCustomFont4' ;
+    display: flex;
+    flex-direction: column;
     }
 
     .price h1 {
@@ -80,4 +82,100 @@ color: #EEA820;
 
     }
 
+    .additional_work {
+        font-family: 'MyCustomFont4' ;
+        color: #EEA820;
+        font-size: 10px ;
+        /* margin-left: 150px; */
+        margin-top: 80px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+    }
+
+    /* .price2 {
+
+   
+
+
+        } */
+    
+        .price2 h1 {
+    font-family: 'Press Start 2P';
+    margin-left: 300px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    /* line-height: 24px; */
+    color: #EEA820;
+    font-family: 'MyCustomFont4' ;
+    padding: 0px;
+    /* Прошивка вашей приставки */
+        }
+    
+        .price2 p {
+    font-family: 'jsMath-cmbx10';
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    /* line-height: 16px; */
+    color: #395C5D;
+    font-family: 'MyCustomFont4' ;
+    /* Цены актуальны... */
+        }
+
+    .price_firmware2 {
+        width: 1000px;
+        /* height: 361px; */
+        margin-left: 80px;
+        background: #095C64;
+        border: 3px solid #000000;
+        border-radius: 10px;
+        font-family: 'MyCustomFont4' ;
+        /* padding-left: 50px; */
+            }
+
+    Price_firmware_prices2 {
+            height: 300px;
+            padding-top: 290px;
+           
+    }
+
+    .Price_firmware_prices2 p {
+        margin-top: 5px;
+        margin-left: 20px;
+        padding-left: 50px;
+        /* margin-top: 50px; */
+        /* width: 250px; */
+        /* height: 50px; */
+        font-family: 'MyCustomFont4';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #EEA820;
+                /* NINTENDO SWITCH OLED 5000р */
+        
+            }
+
+            .Price_firmware_prices2  .animated-button1 {
+                margin-left: 760px;
+                margin-bottom: 20px;
+               
+        }
+
+#text1 {
+    padding: 0px;
+    font-size: 10px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
  
+
+
