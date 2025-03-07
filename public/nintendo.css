@@ -4,6 +4,22 @@
       padding: 20px;
       font-family: 'Courier New', Courier, monospace;
     }
+
+    main h1, h2 {
+      color: #f9f9f9;
+    }
+
+    .left {
+      text-align: left;
+    }
+
+    .left img {
+      width: 100%;
+    }
+
+    .left img :hover {
+      width: 200px;
+    }
   
     .main-banner {
       position: relative;
