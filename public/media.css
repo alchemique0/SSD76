@@ -16,9 +16,31 @@
     color: white;
     
   }
+/* Банер с услугами2 */
+  .price_firmware2 {
+      
+    width: 90%;
+    height: auto;
+    margin-left: 10px;
+    background: #095C64;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    font-family: 'MyCustomFont4' ;
+    /* padding-left: 50px; */
+        }
+ /* Кнопка заказать для второго Банера */
+        .Price_firmware_prices2  .animated-button1 {
+          margin-left: 160px;
+          margin-bottom: 20px;
+         
+  }
 
- 
-
+  .Group_38 {
+    position: absolute;
+    width: 90%;
+    z-index: -1;
+    margin-top: 40px;
+    }
 }
 
 
