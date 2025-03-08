@@ -258,13 +258,13 @@ margin: 20px;
 }
 
 .texxt {
-  margin: 30px;
+  margin: 20px;
   font-size: 20px;
 }
 
 #head {
   font-size: 40px;
-  margin-left: 5%;
+  margin-left: 20px;
 }
 
 
@@ -276,6 +276,7 @@ margin: 20px;
   /* width: 1000px; */
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -294,8 +295,8 @@ margin: 20px;
 }
 
 .projects_carusel h1 {
-  font-size: 40px;
-  margin-left: 60px;
+  font-size: 20px;
+  margin-left: 40px;
 }
 
 .btn-8 a{
