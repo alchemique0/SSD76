@@ -166,22 +166,7 @@ margin: 20px;
   margin: 10px;
 }
 
-/* .btn-6:before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 0;
-  background : #fff;
-  left: 100%;
-  bottom: 0;
-  transition: all .3s;
-  opacity: 0.3;
-}
 
-.btn-6:hover:before {
-  width: 100%;
-  left:0;
-} */
 
 .btn-6 a {
   display: inline-block;
@@ -197,65 +182,7 @@ margin: 20px;
   background-color: #0056b3;
 }
 
-/* Buton 6 Bitti */
 
-.btn-7 {
-  text-align: center;
-  display: inline-block;
-  padding: 15px 40px;
-  border: 1px solid #fff;
-  cursor: pointer;
-  letter-spacing: 2px;
-  position:relative;
-  overflow:hidden;
-  margin: 10px;
-}
-
-.btn-7:before {
-  content: "";
-  position: absolute;
-  height: 0;
-  width: 100%;
-  background : #fff;
-  left: 0;
-  top: 0;
-  transition: all .3s;
-  opacity: 0.3;
-}
-
-.btn-7:hover:before {
-  height: 100%;
-}
-
-/* Buton 7 Bitti */
-
-.btn-8 {
-  text-align: center;
-  display: inline-block;
-  padding: 15px 40px;
-  border: 1px solid #fff;
-  cursor: pointer;
-  letter-spacing: 2px;
-  position:relative;
-  overflow:hidden;
-  margin: 10px;
-}
-
-.btn-8:before {
-  content: "Кнопка";
-  position: absolute;
-  height: 0;
-  width: 100%;
-  background : #fff;
-  left: 0;
-  bottom: 0;
-  transition: all .3s;
-  opacity: 0.3;
-}
-
-.btn-8:hover:before {
-  height: 100%;
-}
 
 .texxt {
   margin: 20px;

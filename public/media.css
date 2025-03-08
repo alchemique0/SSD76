@@ -1,3 +1,23 @@
+@media (max-width: 800px) {
+  .price_firmware2 {
+      
+    width: 95%;
+    height: auto;
+    margin-left: 20px;
+    background: #095C64;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    font-family: 'MyCustomFont4' ;
+    /* padding-left: 50px; */
+        }
+ /* Кнопка заказать для второго Банера */
+        .Price_firmware_prices2  .animated-button1 {
+          margin-left: 160px;
+          margin-bottom: 20px;
+         
+  }
+  }
+
 @media (max-width: 700px) {
   header {
     display:contents;
@@ -17,25 +37,10 @@
     
   }
 /* Банер с услугами2 */
-  .price_firmware2 {
-      
-    width: 90%;
-    height: auto;
-    margin-left: 10px;
-    background: #095C64;
-    border: 3px solid #000000;
-    border-radius: 10px;
-    font-family: 'MyCustomFont4' ;
-    /* padding-left: 50px; */
-        }
- /* Кнопка заказать для второго Банера */
-        .Price_firmware_prices2  .animated-button1 {
-          margin-left: 160px;
-          margin-bottom: 20px;
-         
-  }
+
 
   .Group_38 {
+    display: none;
     position: absolute;
     width: 90%;
     z-index: -1;
@@ -120,6 +125,7 @@
             line-height: 20px;
             /* letter-spacing: 0.05em;  */
             color: #EB3436;
+            margin-bottom: 30px;
     }
 
     .product-card {
@@ -136,16 +142,16 @@
 
  
     .outer-shield {
-      height: 150px; /* Размер внешнего контейнера */
+      height: 150px; 
       margin: 5px;
     }
 
-    .inner-shield {
-      width: 165px; /* В два раза меньше внешнего */
-      height: 160px; /* В два раза меньше внешнего */
+    /* .inner-shield {
+      width: 165px; 
+      height: 160px; 
       margin-top: -50px;
       z-index: 0;
-    }
+    } */
 
     header {
       display:contents;
@@ -182,7 +188,26 @@
      cursor: pointer;
    }
 
-}
+   .midle_outer {
+    margin-top: 30px;
+   }
+
+   .product-card {
+    margin-left: 30px;
+   }
+
+   /* .projects_products {
+    width: 500px; */
+    
+   
+
+   .projects {
+    margin-left: 40px;
+   }
+  }
+
+
+
 
 @media (max-width: 1000px) {
   .frame1 {
