@@ -111,12 +111,10 @@
 .side-menu.active {
     right: 0px;
     left: 0px; 
-
-
-    /* padding-top: 270px; */
-    
-    /* background-position:0% */
   }
 
-
+  .acor-body a {
+    text-decoration: none;
+    color: #06233b;
+  }
 

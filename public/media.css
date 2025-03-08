@@ -135,23 +135,18 @@
             width:auto ;
             height: 200px;
             text-align: left;
-            padding-left: 5px;
+            margin-right: 20px;
             background: white;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
  
     .outer-shield {
-      height: 150px; 
+      /* height: 150px;  */
       margin: 5px;
+      /* width: 180px; */
     }
 
-    /* .inner-shield {
-      width: 165px; 
-      height: 160px; 
-      margin-top: -50px;
-      z-index: 0;
-    } */
 
     header {
       display:contents;
@@ -192,14 +187,7 @@
     margin-top: 30px;
    }
 
-   .product-card {
-    margin-left: 30px;
-   }
 
-   /* .projects_products {
-    width: 500px; */
-    
-   
 
    .projects {
     margin-left: 40px;

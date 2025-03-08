@@ -145,26 +145,7 @@ padding-top: 10px;
 
 
 
-  footer {
-    background: rgba(42, 157, 143, 0.3);
-    
-    padding: 10px;
-    color: white;
-    text-align: center;
-    margin-bottom: 90px;
-  }
-  footer a {
-  margin: 0 15px;
-  margin-bottom: 90px;
-  text-decoration: none;
-  color: rgb(175, 232, 225);
-}
 
-footer a:hover {
-  margin: 0 15px;
-  text-decoration: none;
-  color: rgb(241, 205, 60);
-}
 
 
 
@@ -217,6 +198,28 @@ padding-bottom: 50px;
 .prefooter {
   display: flex;
   flex-direction: row;
+}
+
+
+footer {
+  background: rgba(42, 157, 143, 0.3);
+  
+  padding: 10px;
+  color: white;
+  text-align: center;
+  margin-bottom: 90px;
+}
+footer a {
+margin: 0 15px;
+margin-bottom: 90px;
+text-decoration: none;
+color: rgb(175, 232, 225);
+}
+
+footer a:hover {
+margin: 0 15px;
+text-decoration: none;
+color: rgb(241, 205, 60);
 }
 
  .footer {
@@ -276,15 +279,12 @@ border-radius: 5px;
     }
 
    .call_to_us {
-        
-            position: fixed;
-           
-            top: 70%;
-            left: 72%;
-            width: 90%;
-            display: flex;
-            flex-direction: row;
-          
+position: fixed;
+top: 70%;
+left: 72%;
+width: 90%;
+display: flex;
+flex-direction: row; 
     }
 
     .rounded-box {
