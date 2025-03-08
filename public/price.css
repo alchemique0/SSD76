@@ -63,13 +63,22 @@ font-family: 'MyCustomFont4' ;
 /* СТОИМОСТЬ */
     }
 
+    .Price_firmware_prices2 img {
+        position: absolute;
+        width: 20px;
+        margin-left: 20px;
+        /* margin-top: 50px; */
+    }
+
     .Price_firmware_prices {
         height: 300px;
+        margin-top: 20px;
     }
 
     .Price_firmware_prices p {
-margin-top: 10px;
-margin-left: 20px;
+margin-top: 0px;
+margin-left: 40px;
+padding-right: 20px;
 width: 250px;
 height: 50px;
 font-family: 'MyCustomFont4';
@@ -80,6 +89,11 @@ line-height: 20px;
 color: #EEA820;
         /* NINTENDO SWITCH OLED 5000р */
 
+    }
+
+    .Price_firmware_prices img {
+        position: absolute;
+        margin-left: 10px;
     }
 
     .additional_work {
@@ -129,8 +143,9 @@ color: #EEA820;
         }
 
     .price_firmware2 {
+      
         width: 1000px;
-        /* height: 361px; */
+        height: 500px;
         margin-left: 80px;
         background: #095C64;
         border: 3px solid #000000;
@@ -139,9 +154,10 @@ color: #EEA820;
         /* padding-left: 50px; */
             }
 
-    Price_firmware_prices2 {
-            height: 300px;
-            padding-top: 290px;
+    .Price_firmware_prices2 {
+        /* margin-top: 250px;
+            height: 300px; */
+            padding-top: 20px;
            
     }
 
