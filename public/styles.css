@@ -1,3 +1,22 @@
+
+html::-webkit-scrollbar {
+  width: 20px; /* Ширина вертикального скроллбара */
+}
+
+html::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Цвет трека */
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #792e2e; /* Цвет ползунка */
+  border-radius: 5px; /* Закругление углов */
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #be3f3f; /* Цвет ползунка при наведении */
+}
+
+
 /* Стиль для модального окна */
 .modal {
   display: none; /* Модальное окно скрыто по умолчанию */
@@ -288,18 +307,18 @@ flex-direction: row;
     }
 
     .rounded-box {
-      font-family: 'MyCustomFont4';
-      position: relative;
-      width: 200px;
-      height: 60px;
-      background-color: #3498db;
-      border-radius: 10px;
-      color: aliceblue;
-      font-size: 15px;
-      text-align: center;
-      margin-top: 55px;
-      padding: 10px;
-      padding-top: 15px;
+font-family: 'MyCustomFont4';
+position: relative;
+width: 200px;
+height: 60px;
+background-color: #3498db;
+border-radius: 10px;
+color: aliceblue;
+font-size: 15px;
+text-align: center;
+margin-top: 55px;
+padding: 10px;
+padding-top: 15px;
     }
 
     
