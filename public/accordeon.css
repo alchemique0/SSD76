@@ -85,7 +85,7 @@
   top: 10;
   width: 300px;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #c2d8e2;
   transition: left 0.3s ease;
   z-index: 999;
   left: -300px; /* Меню скрыто за пределами экрана */
@@ -100,8 +100,9 @@
 
 .side-menu_image {
     width: 270px;
-    height: 350px;
-     background-image: url('./Main_Content/TLoZ_BotW_boxart.webp'); 
+    height: 200px;
+     /* background-image: url('./Main_Content/TLoZ_BotW_boxart.webp');  */
+     background-color: #337AB7;
     margin: 10px;
     /* border-color: #000;
     border-width: 5px; */
