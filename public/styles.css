@@ -1,19 +1,7 @@
 
-html::-webkit-scrollbar {
-  width: 20px; /* Ширина вертикального скроллбара */
-}
-
-html::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Цвет трека */
-}
-
-html::-webkit-scrollbar-thumb {
-  background: #792e2e; /* Цвет ползунка */
-  border-radius: 5px; /* Закругление углов */
-}
-
-html::-webkit-scrollbar-thumb:hover {
-  background: #be3f3f; /* Цвет ползунка при наведении */
+html {
+  scrollbar-width: auto; /* Тонкий скроллбар */
+  scrollbar-color: #f02b2b #f3d5d5; /* Цвет ползунка и трека */
 }
 
 
