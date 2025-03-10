@@ -20,8 +20,8 @@ document.getElementById('menuToggle').addEventListener('click', function() {
 
 const slides = [
 {
- title: "Nintendo Switch",
- text: "Современные приставки Nintendo Switch: Oled, Lite, Rev1, Rev2",
+ title: "Ноутбуки",
+ text: "Обслуживание, чистка, установка программ",
 },
 {
  title: "SSD76",
