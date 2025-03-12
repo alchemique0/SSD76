@@ -4,6 +4,14 @@ html {
   scrollbar-color: #f02b2b #f3d5d5; /* Цвет ползунка и трека */
 }
 
+body {
+    margin: 0;
+    font-family: MyCustomFont, sans-serif;
+    background: url('./Main_Content/background.webp') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'MyCustomFont', sans-serif; 
+    
+  }
 
 /* Стиль для модального окна */
 .modal {
@@ -63,14 +71,7 @@ html {
   margin: 0;
 } */
 
-body {
-    margin: 0;
-    font-family: MyCustomFont, sans-serif;
-    background: url('./Main_Content/background.webp') no-repeat center center fixed;
-    background-size: cover;
-    font-family: 'MyCustomFont', sans-serif; 
-    
-  }
+
 
   
   
@@ -209,13 +210,17 @@ padding-bottom: 50px;
 
 
 footer {
-  background: rgba(42, 157, 143, 0.3);
-  
-  padding: 10px;
+  /* background: rgba(42, 157, 143, 0.3); */
+  background-image: url('../temp/back_2.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  /* padding: 10px; */
   color: white;
   text-align: center;
   margin-bottom: 90px;
 }
+
 footer a {
 margin: 0 15px;
 margin-bottom: 90px;
@@ -435,3 +440,103 @@ background: #E7BE2C;
 border-radius: 5px;
 }
 
+/* Модальное окно регистрации */
+.modal1 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content1 {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  text-align: left;
+}
+
+input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.social-buttons {
+  margin-top: 20px;
+}
+
+.social-buttons p {
+  margin-bottom: 10px;
+}
+
+.social-btn {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  width: 100%;
+}
+
+.social-btn.vk {
+  background-color: #4a76a8;
+}
+
+.social-btn.google {
+  background-color: #db4437;
+}
+
+.social-btn.yandex {
+  background-color: #ffcc00;
+  color: black;
+}
+
+.social-btn:hover {
+  opacity: 0.9;
+}

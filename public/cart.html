@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Корзина магазина</title>
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Корзина магазина</h1>
+
+    <!-- Товары -->
+    <div class="item">
+      <h2>Nintendo Switch Oled - 30,000₽</h2>
+      <button class="add-btn" data-name="Nintendo Switch Oled" data-price="30000">+</button>
+    </div>
+
+    <div class="item">
+      <h2>Nintendo Switch Lite - 20,000₽</h2>
+      <button class="add-btn" data-name="Nintendo Switch Lite" data-price="20000">+</button>
+    </div>
+
+    <!-- Услуги -->
+    <div class="item">
+      <h2>Установка Мод.Чипа - 5,000₽</h2>
+      <button class="add-btn" data-name="Установка Мод.Чипа" data-price="5000">+</button>
+    </div>
+
+    <div class="item">
+      <h2>Retroarch - 500₽</h2>
+      <button class="add-btn" data-name="Retroarch" data-price="500">+</button>
+    </div>
+
+    <!-- Корзина -->
+    <div class="cart">
+      <h2>Корзина</h2>
+      <ul id="cartItems"></ul>
+      <p>Итого: <span id="totalAmount">0</span>₽</p>
+    </div>
+  </div>
+
+  <script>
+    // Массив для хранения товаров в корзине
+let cart = [];
+
+// Функция для обновления корзины
+function updateCart() {
+  const cartItems = document.getElementById('cartItems');
+  const totalAmount = document.getElementById('totalAmount');
+
+  // Очищаем текущий список
+  cartItems.innerHTML = '';
+
+  // Считаем общую сумму
+  let total = 0;
+
+  // Добавляем товары в список
+  cart.forEach(item => {
+    const li = document.createElement('li');
+    li.textContent = `${item.name} - ${item.price}₽`;
+    cartItems.appendChild(li);
+    total += item.price;
+  });
+
+  // Обновляем итоговую сумму
+  totalAmount.textContent = total;
+}
+
+// Добавление товара в корзину
+document.querySelectorAll('.add-btn').forEach(button => {
+  button.addEventListener('click', () => {
+    const name = button.getAttribute('data-name');
+    const price = parseInt(button.getAttribute('data-price'));
+
+    // Добавляем товар в корзину
+    cart.push({ name, price });
+
+    // Обновляем отображение корзины
+    updateCart();
+  });
+});
+  </script>
+</body>
+</html>
