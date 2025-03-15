@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .private_name {
+color:black;
+         }
+    </style>
+</head>
+<body>
+    <div id="userInfo">
+        <p>Имя: <span id="userName"></span></p>
+        <p>Телефон: <span id="userPhone"></span></p>
+
+        <div class="save">Безопасность Данных вашего имени и пароля состоит в том, 
+            что они хранятся на вашем устройстве (в LocalStorage) и недоступны владельцу сайта.
+        </div>
+      </div>
+
+      <script>
+        // Получаем значение из LocalStorage
+        
+        const name = localStorage.getItem('name');
+        const phone = localStorage.getItem('phone');
+        
+        // Выводим значения в элементы
+        if (name) {
+          document.getElementById('userName').textContent = name;
+        } else {
+          document.getElementById('userName').textContent = 'Имя не указано';
+        }
+        
+        if (phone) {
+          document.getElementById('userPhone').textContent = phone;
+        } else {
+          document.getElementById('userPhone').textContent = 'Телефон не указан';
+        }
+           
+            </script>
+</body>
+</html>

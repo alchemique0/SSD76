@@ -79,13 +79,44 @@ window.addEventListener('click', function(event) {
 });
 
 // Обработка формы регистрации
-document.getElementById('registrationForm').addEventListener('submit', function(event) {
+document.getElementById('registrationForm').addEventListener('submit', function (event) {
   event.preventDefault();
+
+  // Получаем данные из формы
   const name = document.getElementById('name').value;
   const phone = document.getElementById('phone').value;
-  alert(`Регистрация успешна!\nИмя: ${name}\nТелефон: ${phone}`);
+
+  // Проверяем, заполнены ли поля
+  if (!name || !phone) {
+    alert('Пожалуйста, заполните все поля!');
+    return;
+  }
+
+  // Проверяем, есть ли уже пользователь в LocalStorage
+  const users = JSON.parse(localStorage.getItem('users')) || [];
+
+  // Проверяем, не зарегистрирован ли уже такой пользователь
+  const userExists = users.some(user => user.name === name && user.phone === phone);
+  if (userExists) {
+    alert('Пользователь с таким именем и телефоном уже зарегистрирован!');
+    return;
+  }
+
+  // Добавляем нового пользователя
+  users.push({ name, phone });
+  localStorage.setItem('users', JSON.stringify(users));
+
+  // Очищаем поля формы
+  document.getElementById('name').value = '';
+  document.getElementById('phone').value = '';
+
+  // Скрываем модальное окно
   document.getElementById('registrationModal').style.display = 'none';
+
+  // Уведомляем пользователя
+  alert(`Регистрация успешна!\nИмя: ${name}\nТелефон: ${phone}`);
 });
+
 
 // Обработка кнопок социальных сетей
 document.querySelector('.social-btn.vk').addEventListener('click', function() {
